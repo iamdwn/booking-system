@@ -40,3 +40,18 @@ D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duo
 D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duongtddse172132_NET1707_A02\Repository\obj\Debug\net8.0\Repository.pdb
 D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duongtddse172132_NET1707_A02\Repository\obj\Debug\net8.0\Repository.genruntimeconfig.cache
 D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duongtddse172132_NET1707_A02\Repository\obj\Debug\net8.0\ref\Repository.dll
+D:\Docm\Dev\.learning-process\C#\PRN221\Duongtddse172132_NET1707_A02\Repository\bin\Debug\net8.0\Repository.deps.json
+D:\Docm\Dev\.learning-process\C#\PRN221\Duongtddse172132_NET1707_A02\Repository\bin\Debug\net8.0\Repository.runtimeconfig.json
+D:\Docm\Dev\.learning-process\C#\PRN221\Duongtddse172132_NET1707_A02\Repository\bin\Debug\net8.0\Repository.dll
+D:\Docm\Dev\.learning-process\C#\PRN221\Duongtddse172132_NET1707_A02\Repository\bin\Debug\net8.0\Repository.pdb
+D:\Docm\Dev\.learning-process\C#\PRN221\Duongtddse172132_NET1707_A02\Repository\obj\Debug\net8.0\Repository.csproj.AssemblyReference.cache
+D:\Docm\Dev\.learning-process\C#\PRN221\Duongtddse172132_NET1707_A02\Repository\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Docm\Dev\.learning-process\C#\PRN221\Duongtddse172132_NET1707_A02\Repository\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+D:\Docm\Dev\.learning-process\C#\PRN221\Duongtddse172132_NET1707_A02\Repository\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+D:\Docm\Dev\.learning-process\C#\PRN221\Duongtddse172132_NET1707_A02\Repository\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+D:\Docm\Dev\.learning-process\C#\PRN221\Duongtddse172132_NET1707_A02\Repository\obj\Debug\net8.0\Repository.sourcelink.json
+D:\Docm\Dev\.learning-process\C#\PRN221\Duongtddse172132_NET1707_A02\Repository\obj\Debug\net8.0\Repository.dll
+D:\Docm\Dev\.learning-process\C#\PRN221\Duongtddse172132_NET1707_A02\Repository\obj\Debug\net8.0\refint\Repository.dll
+D:\Docm\Dev\.learning-process\C#\PRN221\Duongtddse172132_NET1707_A02\Repository\obj\Debug\net8.0\Repository.pdb
+D:\Docm\Dev\.learning-process\C#\PRN221\Duongtddse172132_NET1707_A02\Repository\obj\Debug\net8.0\Repository.genruntimeconfig.cache
+D:\Docm\Dev\.learning-process\C#\PRN221\Duongtddse172132_NET1707_A02\Repository\obj\Debug\net8.0\ref\Repository.dll

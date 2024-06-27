@@ -4,58 +4,121 @@
     ViewData["Title"] = "Cart";
 }
 
-<h1>Cart</h1>
+<div class="container mt-5">
+    <h1 class="text-center mb-4 text-black-50">Cart</h1>
 
-@if (Model.Rooms.Any())
-{
-    <table class="table table-hover">
-        <thead class="table-dark">
-            <tr>
-                <th>Room Number</th>
-                <th>Room Type</th>
-                <th>Price per Day</th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model.Rooms)
-            {
-                <tr>
-                    <td>@item.RoomNumber</td>
-                    <td>@item.RoomType.RoomTypeName</td>
-                    <td>@item.RoomPricePerDay</td>
-                    <td>
-                        <form method="post" asp-page-handler="RemoveFromCart" asp-route-roomId="@item.RoomId">
-                            <button type="submit" class="btn btn-danger">Remove</button>
-                        </form>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
+    @if (Model.Rooms.Any())
+    {
+        <div class="card">
+            <div class="card-header">
+                <h2 class="mb-0">Your Cart</h2>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Room Number</th>
+                                <th>Room Type</th>
+                                <th>Price per Day</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.Rooms)
+                            {
+                                <tr>
+                                    <td>@item.RoomNumber</td>
+                                    <td>@item.RoomType.RoomTypeName</td>
+                                    <td>@item.RoomPricePerDay</td>
+                                    <td>
+                                        <form method="post" asp-page-handler="RemoveFromCart" asp-route-roomId="@item.RoomId">
+                                            <button type="submit" class="btn btn-danger btn-sm">Remove</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
 
-    <div class="mt-4">
-        <h2>Booking Information</h2>
-        <form method="post" asp-page-handler="CreateBooking">
-            <div class="mb-3">
-                <label for="customerName" class="form-label">Customer Name</label>
-                <input type="text" id="customerName" name="CustomerName" class="form-control" value="@Model.CustomerName" required />
+                <div class="mt-4">
+                    <h3>Booking Information</h3>
+                    <form method="post" asp-page-handler="CreateBooking">
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="customerName" class="form-label">Customer Name</label>
+                                <input type="text" id="customerName" name="CustomerName" class="form-control" value="@Model.CustomerName" required />
+                            </div>
+                            <div class="col-md-3">
+                                <label for="checkInDate" class="form-label">Check-in Date</label>
+                                <input type="date" id="checkInDate" name="CheckInDate" class="form-control" required />
+                            </div>
+                            <div class="col-md-3">
+                                <label for="checkOutDate" class="form-label">Check-out Date</label>
+                                <input type="date" id="checkOutDate" name="CheckOutDate" class="form-control" required />
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-success w-100">Create Booking</button>
+                    </form>
+                </div>
             </div>
-            <div class="mb-3">
-                <label for="checkInDate" class="form-label">Check-in Date</label>
-                <input type="date" id="checkInDate" name="CheckInDate" class="form-control" required />
-            </div>
-            <div class="mb-3">
-                <label for="checkOutDate" class="form-label">Check-out Date</label>
-                <input type="date" id="checkOutDate" name="CheckOutDate" class="form-control" required />
-            </div>
-            <button type="submit" class="btn btn-success">Create Booking</button>
-        </form>
-    </div>
-}
-else
-{
-    <div class="alert alert-info" role="alert">
-        Your cart is empty.
-    </div>
-}
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info text-center" role="alert">
+            Your cart is empty.
+        </div>
+    }
+</div>
+
+<style>
+    .container {
+        max-width: 900px;
+    }
+
+    .card {
+        border: none;
+        box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    }
+
+    .btn {
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,174,1) 35%, rgba(0,212,255,1) 100%);
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+        border-color: #dc3545;
+    }
+
+        .btn-danger:hover {
+            background-color: #c82333;
+            border-color: #bd2130;
+        }
+     
+    .btn-success {
+        background-color: #28a745;
+        border-color: #28a745;
+    }
+
+        .btn-success:hover {
+            background-color: #218838;
+            border-color: #1e7e34;
+        }
+
+    .table-hover tbody tr:hover {
+        background-color: #f8f9fa;
+    }
+
+    .alert-info {
+        background-color: #d1ecf1;
+        border-color: #bee5eb;
+        color: #0c5460;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        font-weight: 300;
+    }
+</style>

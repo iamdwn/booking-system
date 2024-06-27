@@ -4,37 +4,159 @@
 @{
     ViewData["Title"] = "User Profile";
 }
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
 
 @if (Model.Customer != null)
 {
-    <div class="card">
-        <div class="card-header">
-            <h2>User Information</h2>
-        </div>
-        <div class="card-body">
-            <form method="post">
-                <div class="mb-3">
-                    <label for="CustomerFullName" class="form-label">Full Name</label>
-                    <input type="text" class="form-control" id="CustomerFullName" name="Customer.CustomerFullName" value="@Model.Customer.CustomerFullName" />
+    <div class="container mt-5">
+        <h1 class="text-center text-primary mb-4 text-black-50">User Profile</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card shadow-lg border-0 rounded-3">
+                    <div class="card-header bg-gradient-primary text-white">
+                        <h2 class="card-title mb-0">User Information</h2>
+                    </div>
+                    <div class="card-body p-4">
+                        <form method="post">
+                            <div class="mb-3">
+                                <label for="CustomerFullName" class="form-label">Full Name</label>
+                                <div class="input-group">
+                                    <span class="input-group-text" id="fullname-addon">
+                                        <i class="fas fa-user gradient-icon"></i>
+                                    </span>
+                                    <input type="text" class="form-control" id="CustomerFullName" name="Customer.CustomerFullName" value="@Model.Customer.CustomerFullName" aria-describedby="fullname-addon" />
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="EmailAddress" class="form-label">Email Address</label>
+                                <div class="input-group">
+                                    <span class="input-group-text" id="email-addon">
+                                        <i class="fas fa-envelope gradient-icon"></i>
+                                    </span>
+                                    <input type="email" class="form-control" id="EmailAddress" name="Customer.EmailAddress" value="@Model.Customer.EmailAddress" aria-describedby="email-addon" />
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="Telephone" class="form-label">Telephone</label>
+                                <div class="input-group">
+                                    <span class="input-group-text" id="telephone-addon">
+                                        <i class="fas fa-phone gradient-icon"></i>
+                                    </span>
+                                    <input type="tel" class="form-control" id="Telephone" name="Customer.Telephone" value="@Model.Customer.Telephone" aria-describedby="telephone-addon" />
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="CustomerBirthday" class="form-label">Birthday</label>
+                                <div class="input-group">
+                                    <span class="input-group-text" id="birthday-addon">
+                                        <i class="fas fa-calendar-alt gradient-icon"></i>
+                                    </span>
+                                    <input type="date" class="form-control" id="CustomerBirthday" name="Customer.CustomerBirthday" value="@Model.Customer.CustomerBirthday?.ToString("yyyy-MM-dd")" aria-describedby="birthday-addon" />
+                                </div>
+                            </div>
+                            <div class="d-grid gap-2">
+                                <button type="submit" class="btn btn-primary btn-block">
+                                    <span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                                    Save Changes
+                                </button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                <div class="mb-3">
-                    <label for="EmailAddress" class="form-label">Email Address</label>
-                    <input type="email" class="form-control" id="EmailAddress" name="Customer.EmailAddress" value="@Model.Customer.EmailAddress" />
-                </div>
-                <div class="mb-3">
-                    <label for="Telephone" class="form-label">Telephone</label>
-                    <input type="tel" class="form-control" id="Telephone" name="Customer.Telephone" value="@Model.Customer.Telephone" />
-                </div>
-                <div class="mb-3">
-                    <label for="CustomerBirthday" class="form-label">Birthday</label>
-                    <input type="date" class="form-control" id="CustomerBirthday" name="Customer.CustomerBirthday" value="@Model.Customer.CustomerBirthday?.ToString("yyyy-MM-dd")" />
-                </div>
-                <button type="submit" class="btn btn-primary">Save Changes</button>
-            </form>
+            </div>
         </div>
     </div>
 }
 else
 {
-    <p>User information is not available.</p>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="alert alert-warning" role="alert">
+                    User information is not available.
+                </div>
+            </div>
+        </div>
+    </div>
 }
+
+<style>
+    .container {
+        max-width: 1000px;
+    }
+
+    .card-header {
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,174,1) 35%, rgba(0,212,255,1) 100%);
+    }
+
+    .card {
+        border: none;
+        border-radius: 0.75rem;
+    }
+
+    .card-body {
+        background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,174,1) 35%, rgba(0,212,255,1) 100%);
+        padding: 2rem;
+        border-radius: 0.75rem;
+    }
+
+    .input-group-text {
+        background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,174,1) 35%, rgba(0,212,255,1) 100%);
+        border: 1px solid linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,174,1) 35%, rgba(0,212,255,1) 100%);
+        color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,174,1) 35%, rgba(0,212,255,1) 100%);
+    }
+
+        .input-group-text .gradient-icon {
+            mask: none;
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,174,1) 35%, rgba(0,212,255,1) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 1.5rem;
+            color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,174,1) 35%, rgba(0,212,255,1) 100%);
+        }
+
+    .btn-primary {
+        background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,174,1) 35%, rgba(0,212,255,1) 100%);
+        border-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,174,1) 35%, rgba(0,212,255,1) 100%);
+    }
+
+        .btn-primary:hover {
+            background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,174,1) 35%, rgba(0,212,255,1) 100%);
+            border-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,174,1) 35%, rgba(0,212,255,1) 100%);
+        }
+
+    .form-label {
+        font-weight: bold;
+    }
+
+    .mb-3 {
+        margin-bottom: 1rem !important;
+    }
+
+    .alert-warning {
+        background-color: #fff3cd;
+        border-color: #ffeeba;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        font-weight: 300;
+    }
+
+    .input-group .form-control {
+        border-radius: 0.25rem;
+    }
+</style>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var spinner = document.querySelector('.spinner-border');
+        var saveButton = document.querySelector('button[type="submit"]');
+        saveButton.addEventListener('click', function () {
+            spinner.classList.remove('d-none');
+        });
+    });
+</script>
