@@ -1,0 +1,40 @@
+﻿@page
+@model RazorPage.Pages.Profile.IndexModel
+
+@{
+    ViewData["Title"] = "User Profile";
+}
+
+@if (Model.Customer != null)
+{
+    <div class="card">
+        <div class="card-header">
+            <h2>User Information</h2>
+        </div>
+        <div class="card-body">
+            <form method="post">
+                <div class="mb-3">
+                    <label for="CustomerFullName" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="CustomerFullName" name="Customer.CustomerFullName" value="@Model.Customer.CustomerFullName" />
+                </div>
+                <div class="mb-3">
+                    <label for="EmailAddress" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="EmailAddress" name="Customer.EmailAddress" value="@Model.Customer.EmailAddress" />
+                </div>
+                <div class="mb-3">
+                    <label for="Telephone" class="form-label">Telephone</label>
+                    <input type="tel" class="form-control" id="Telephone" name="Customer.Telephone" value="@Model.Customer.Telephone" />
+                </div>
+                <div class="mb-3">
+                    <label for="CustomerBirthday" class="form-label">Birthday</label>
+                    <input type="date" class="form-control" id="CustomerBirthday" name="Customer.CustomerBirthday" value="@Model.Customer.CustomerBirthday?.ToString("yyyy-MM-dd")" />
+                </div>
+                <button type="submit" class="btn btn-primary">Save Changes</button>
+            </form>
+        </div>
+    </div>
+}
+else
+{
+    <p>User information is not available.</p>
+}

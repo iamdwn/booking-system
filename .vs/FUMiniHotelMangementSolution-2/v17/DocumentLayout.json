@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Docm\\Software Engineering\\semester 7\\PRN221\\.docs\\FUMiniHotelManagement-2\\FUMiniHotelManagement-2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage.csproj|d:\\docm\\software engineering\\semester 7\\prn221\\.docs\\fuminihotelmanagement-2\\fuminihotelmanagement-2\\razorpage\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage.csproj|solutionrelative:razorpage\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage.csproj|d:\\docm\\software engineering\\semester 7\\prn221\\.docs\\fuminihotelmanagement-2\\fuminihotelmanagement-2\\razorpage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage.csproj|solutionrelative:razorpage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage.csproj|d:\\docm\\software engineering\\semester 7\\prn221\\.docs\\fuminihotelmanagement-2\\fuminihotelmanagement-2\\razorpage\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage.csproj|solutionrelative:razorpage\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage.csproj|d:\\docm\\software engineering\\semester 7\\prn221\\.docs\\fuminihotelmanagement-2\\fuminihotelmanagement-2\\razorpage\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage.csproj|solutionrelative:razorpage\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage.csproj|d:\\docm\\software engineering\\semester 7\\prn221\\.docs\\fuminihotelmanagement-2\\fuminihotelmanagement-2\\razorpage\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage.csproj|solutionrelative:razorpage\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage.csproj|d:\\docm\\software engineering\\semester 7\\prn221\\.docs\\fuminihotelmanagement-2\\fuminihotelmanagement-2\\razorpage\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage.csproj|solutionrelative:razorpage\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage.csproj|d:\\docm\\software engineering\\semester 7\\prn221\\.docs\\fuminihotelmanagement-2\\fuminihotelmanagement-2\\razorpage\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage.csproj|solutionrelative:razorpage\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage.csproj|d:\\docm\\software engineering\\semester 7\\prn221\\.docs\\fuminihotelmanagement-2\\fuminihotelmanagement-2\\razorpage\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage.csproj|solutionrelative:razorpage\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 362,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Docm\\Software Engineering\\semester 7\\PRN221\\.docs\\FUMiniHotelManagement-2\\FUMiniHotelManagement-2\\RazorPage\\Program.cs",
+              "RelativeDocumentMoniker": "RazorPage\\Program.cs",
+              "ToolTip": "D:\\Docm\\Software Engineering\\semester 7\\PRN221\\.docs\\FUMiniHotelManagement-2\\FUMiniHotelManagement-2\\RazorPage\\Program.cs",
+              "RelativeToolTip": "RazorPage\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T18:14:57.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Docm\\Software Engineering\\semester 7\\PRN221\\.docs\\FUMiniHotelManagement-2\\FUMiniHotelManagement-2\\RazorPage\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "RazorPage\\appsettings.Development.json",
+              "ToolTip": "D:\\Docm\\Software Engineering\\semester 7\\PRN221\\.docs\\FUMiniHotelManagement-2\\FUMiniHotelManagement-2\\RazorPage\\appsettings.Development.json",
+              "RelativeToolTip": "RazorPage\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-27T18:09:17.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\Docm\\Software Engineering\\semester 7\\PRN221\\.docs\\FUMiniHotelManagement-2\\FUMiniHotelManagement-2\\RazorPage\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "RazorPage\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\Docm\\Software Engineering\\semester 7\\PRN221\\.docs\\FUMiniHotelManagement-2\\FUMiniHotelManagement-2\\RazorPage\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "RazorPage\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-27T18:09:13.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Docm\\Software Engineering\\semester 7\\PRN221\\.docs\\FUMiniHotelManagement-2\\FUMiniHotelManagement-2\\RazorPage\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "RazorPage\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Docm\\Software Engineering\\semester 7\\PRN221\\.docs\\FUMiniHotelManagement-2\\FUMiniHotelManagement-2\\RazorPage\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "RazorPage\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-27T18:09:11.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Docm\\Software Engineering\\semester 7\\PRN221\\.docs\\FUMiniHotelManagement-2\\FUMiniHotelManagement-2\\RazorPage\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "RazorPage\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Docm\\Software Engineering\\semester 7\\PRN221\\.docs\\FUMiniHotelManagement-2\\FUMiniHotelManagement-2\\RazorPage\\Properties\\launchSettings.json",
+              "RelativeToolTip": "RazorPage\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-27T18:09:04.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Docm\\Software Engineering\\semester 7\\PRN221\\.docs\\FUMiniHotelManagement-2\\FUMiniHotelManagement-2\\RazorPage\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "RazorPage\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Docm\\Software Engineering\\semester 7\\PRN221\\.docs\\FUMiniHotelManagement-2\\FUMiniHotelManagement-2\\RazorPage\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "RazorPage\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAmwGgAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T18:07:55.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Docm\\Software Engineering\\semester 7\\PRN221\\.docs\\FUMiniHotelManagement-2\\FUMiniHotelManagement-2\\RazorPage\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "RazorPage\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\Docm\\Software Engineering\\semester 7\\PRN221\\.docs\\FUMiniHotelManagement-2\\FUMiniHotelManagement-2\\RazorPage\\Pages\\Index.cshtml",
+              "RelativeToolTip": "RazorPage\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T18:07:18.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Docm\\Software Engineering\\semester 7\\PRN221\\.docs\\FUMiniHotelManagement-2\\FUMiniHotelManagement-2\\RazorPage\\appsettings.json",
+              "RelativeDocumentMoniker": "RazorPage\\appsettings.json",
+              "ToolTip": "D:\\Docm\\Software Engineering\\semester 7\\PRN221\\.docs\\FUMiniHotelManagement-2\\FUMiniHotelManagement-2\\RazorPage\\appsettings.json",
+              "RelativeToolTip": "RazorPage\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-27T18:06:49.233Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Code\\DotNet\\FUMiniHotelManagement-2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A99579DA-2B18-48CC-8B8E-F88EC7E1A3A6}|View\\View.csproj|d:\\code\\dotnet\\fuminihotelmanagement-2\\view\\pages\\login\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A99579DA-2B18-48CC-8B8E-F88EC7E1A3A6}|View\\View.csproj|solutionrelative:view\\pages\\login\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99579DA-2B18-48CC-8B8E-F88EC7E1A3A6}|View\\View.csproj|d:\\code\\dotnet\\fuminihotelmanagement-2\\view\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A99579DA-2B18-48CC-8B8E-F88EC7E1A3A6}|View\\View.csproj|solutionrelative:view\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99579DA-2B18-48CC-8B8E-F88EC7E1A3A6}|View\\View.csproj|d:\\code\\dotnet\\fuminihotelmanagement-2\\view\\pages\\login\\signin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A99579DA-2B18-48CC-8B8E-F88EC7E1A3A6}|View\\View.csproj|solutionrelative:view\\pages\\login\\signin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99579DA-2B18-48CC-8B8E-F88EC7E1A3A6}|View\\View.csproj|d:\\code\\dotnet\\fuminihotelmanagement-2\\view\\pages\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A99579DA-2B18-48CC-8B8E-F88EC7E1A3A6}|View\\View.csproj|solutionrelative:view\\pages\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99579DA-2B18-48CC-8B8E-F88EC7E1A3A6}|View\\View.csproj|d:\\code\\dotnet\\fuminihotelmanagement-2\\view\\pages\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A99579DA-2B18-48CC-8B8E-F88EC7E1A3A6}|View\\View.csproj|solutionrelative:view\\pages\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99579DA-2B18-48CC-8B8E-F88EC7E1A3A6}|View\\View.csproj|d:\\code\\dotnet\\fuminihotelmanagement-2\\view\\pages\\login\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A99579DA-2B18-48CC-8B8E-F88EC7E1A3A6}|View\\View.csproj|solutionrelative:view\\pages\\login\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99579DA-2B18-48CC-8B8E-F88EC7E1A3A6}|View\\View.csproj|d:\\code\\dotnet\\fuminihotelmanagement-2\\view\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A99579DA-2B18-48CC-8B8E-F88EC7E1A3A6}|View\\View.csproj|solutionrelative:view\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99579DA-2B18-48CC-8B8E-F88EC7E1A3A6}|View\\View.csproj|d:\\code\\dotnet\\fuminihotelmanagement-2\\view\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A99579DA-2B18-48CC-8B8E-F88EC7E1A3A6}|View\\View.csproj|solutionrelative:view\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99579DA-2B18-48CC-8B8E-F88EC7E1A3A6}|View\\View.csproj|d:\\code\\dotnet\\fuminihotelmanagement-2\\view\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A99579DA-2B18-48CC-8B8E-F88EC7E1A3A6}|View\\View.csproj|solutionrelative:view\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99579DA-2B18-48CC-8B8E-F88EC7E1A3A6}|View\\View.csproj|d:\\code\\dotnet\\fuminihotelmanagement-2\\view\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A99579DA-2B18-48CC-8B8E-F88EC7E1A3A6}|View\\View.csproj|solutionrelative:view\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99579DA-2B18-48CC-8B8E-F88EC7E1A3A6}|View\\View.csproj|d:\\code\\dotnet\\fuminihotelmanagement-2\\view\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A99579DA-2B18-48CC-8B8E-F88EC7E1A3A6}|View\\View.csproj|solutionrelative:view\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 498,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SignIn.cshtml.cs",
+              "DocumentMoniker": "D:\\Code\\DotNet\\FUMiniHotelManagement-2\\View\\Pages\\Login\\SignIn.cshtml.cs",
+              "RelativeDocumentMoniker": "View\\Pages\\Login\\SignIn.cshtml.cs",
+              "ToolTip": "D:\\Code\\DotNet\\FUMiniHotelManagement-2\\View\\Pages\\Login\\SignIn.cshtml.cs",
+              "RelativeToolTip": "View\\Pages\\Login\\SignIn.cshtml.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAASwCUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T04:04:12.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SignIn.cshtml",
+              "DocumentMoniker": "D:\\Code\\DotNet\\FUMiniHotelManagement-2\\View\\Pages\\Login\\SignIn.cshtml",
+              "RelativeDocumentMoniker": "View\\Pages\\Login\\SignIn.cshtml",
+              "ToolTip": "D:\\Code\\DotNet\\FUMiniHotelManagement-2\\View\\Pages\\Login\\SignIn.cshtml",
+              "RelativeToolTip": "View\\Pages\\Login\\SignIn.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T04:02:09.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Code\\DotNet\\FUMiniHotelManagement-2\\View\\Pages\\Customers\\Index.cshtml",
+              "RelativeDocumentMoniker": "View\\Pages\\Customers\\Index.cshtml",
+              "ToolTip": "D:\\Code\\DotNet\\FUMiniHotelManagement-2\\View\\Pages\\Customers\\Index.cshtml",
+              "RelativeToolTip": "View\\Pages\\Customers\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T04:00:52.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\Code\\DotNet\\FUMiniHotelManagement-2\\View\\Pages\\Login\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "View\\Pages\\Login\\Index.cshtml.cs",
+              "ToolTip": "D:\\Code\\DotNet\\FUMiniHotelManagement-2\\View\\Pages\\Login\\Index.cshtml.cs",
+              "RelativeToolTip": "View\\Pages\\Login\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T04:00:44.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Code\\DotNet\\FUMiniHotelManagement-2\\View\\Pages\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "View\\Pages\\Login\\Index.cshtml",
+              "ToolTip": "D:\\Code\\DotNet\\FUMiniHotelManagement-2\\View\\Pages\\Login\\Index.cshtml",
+              "RelativeToolTip": "View\\Pages\\Login\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T04:00:16.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Code\\DotNet\\FUMiniHotelManagement-2\\View\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "View\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Code\\DotNet\\FUMiniHotelManagement-2\\View\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "View\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T03:53:15.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Code\\DotNet\\FUMiniHotelManagement-2\\View\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "View\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Code\\DotNet\\FUMiniHotelManagement-2\\View\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "View\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T03:53:13.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Code\\DotNet\\FUMiniHotelManagement-2\\View\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "View\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Code\\DotNet\\FUMiniHotelManagement-2\\View\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "View\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T03:53:11.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\Code\\DotNet\\FUMiniHotelManagement-2\\View\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "View\\Pages\\Index.cshtml.cs",
+              "ToolTip": "D:\\Code\\DotNet\\FUMiniHotelManagement-2\\View\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "View\\Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T03:48:59.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\Code\\DotNet\\FUMiniHotelManagement-2\\View\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "View\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\Code\\DotNet\\FUMiniHotelManagement-2\\View\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "View\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T03:53:25.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Code\\DotNet\\FUMiniHotelManagement-2\\View\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "View\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\Code\\DotNet\\FUMiniHotelManagement-2\\View\\Pages\\Index.cshtml",
+              "RelativeToolTip": "View\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T11:49:55.573Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

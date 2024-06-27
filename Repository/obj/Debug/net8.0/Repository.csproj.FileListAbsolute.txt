@@ -1,0 +1,42 @@
+D:\Code\DotNet\FUMiniHotelManagement-2\Repository\bin\Debug\net8.0\Repository.deps.json
+D:\Code\DotNet\FUMiniHotelManagement-2\Repository\bin\Debug\net8.0\Repository.dll
+D:\Code\DotNet\FUMiniHotelManagement-2\Repository\bin\Debug\net8.0\Repository.pdb
+D:\Code\DotNet\FUMiniHotelManagement-2\Repository\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\DotNet\FUMiniHotelManagement-2\Repository\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+D:\Code\DotNet\FUMiniHotelManagement-2\Repository\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+D:\Code\DotNet\FUMiniHotelManagement-2\Repository\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+D:\Code\DotNet\FUMiniHotelManagement-2\Repository\obj\Debug\net8.0\Repository.dll
+D:\Code\DotNet\FUMiniHotelManagement-2\Repository\obj\Debug\net8.0\refint\Repository.dll
+D:\Code\DotNet\FUMiniHotelManagement-2\Repository\obj\Debug\net8.0\Repository.pdb
+D:\Code\DotNet\FUMiniHotelManagement-2\Repository\obj\Debug\net8.0\ref\Repository.dll
+D:\Code\DotNet\FUMiniHotelManagement-2\Repository\bin\Debug\net8.0\Repository.runtimeconfig.json
+D:\Code\DotNet\FUMiniHotelManagement-2\Repository\obj\Debug\net8.0\Repository.csproj.AssemblyReference.cache
+D:\Code\DotNet\FUMiniHotelManagement-2\Repository\obj\Debug\net8.0\Repository.genruntimeconfig.cache
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\FUMiniHotelManagement-2\Repository\bin\Debug\net8.0\Repository.deps.json
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\FUMiniHotelManagement-2\Repository\bin\Debug\net8.0\Repository.runtimeconfig.json
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\FUMiniHotelManagement-2\Repository\bin\Debug\net8.0\Repository.dll
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\FUMiniHotelManagement-2\Repository\bin\Debug\net8.0\Repository.pdb
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\FUMiniHotelManagement-2\Repository\obj\Debug\net8.0\Repository.csproj.AssemblyReference.cache
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\FUMiniHotelManagement-2\Repository\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\FUMiniHotelManagement-2\Repository\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\FUMiniHotelManagement-2\Repository\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\FUMiniHotelManagement-2\Repository\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\FUMiniHotelManagement-2\Repository\obj\Debug\net8.0\Repository.dll
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\FUMiniHotelManagement-2\Repository\obj\Debug\net8.0\refint\Repository.dll
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\FUMiniHotelManagement-2\Repository\obj\Debug\net8.0\Repository.pdb
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\FUMiniHotelManagement-2\Repository\obj\Debug\net8.0\Repository.genruntimeconfig.cache
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\FUMiniHotelManagement-2\Repository\obj\Debug\net8.0\ref\Repository.dll
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duongtddse172132_NET1707_A02\Repository\bin\Debug\net8.0\Repository.deps.json
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duongtddse172132_NET1707_A02\Repository\bin\Debug\net8.0\Repository.runtimeconfig.json
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duongtddse172132_NET1707_A02\Repository\bin\Debug\net8.0\Repository.dll
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duongtddse172132_NET1707_A02\Repository\bin\Debug\net8.0\Repository.pdb
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duongtddse172132_NET1707_A02\Repository\obj\Debug\net8.0\Repository.csproj.AssemblyReference.cache
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duongtddse172132_NET1707_A02\Repository\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duongtddse172132_NET1707_A02\Repository\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duongtddse172132_NET1707_A02\Repository\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duongtddse172132_NET1707_A02\Repository\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duongtddse172132_NET1707_A02\Repository\obj\Debug\net8.0\Repository.dll
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duongtddse172132_NET1707_A02\Repository\obj\Debug\net8.0\refint\Repository.dll
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duongtddse172132_NET1707_A02\Repository\obj\Debug\net8.0\Repository.pdb
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duongtddse172132_NET1707_A02\Repository\obj\Debug\net8.0\Repository.genruntimeconfig.cache
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duongtddse172132_NET1707_A02\Repository\obj\Debug\net8.0\ref\Repository.dll

@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Docm\\Software Engineering\\semester 7\\PRN221\\.docs\\FUMiniHotelManagement-2\\Duongtddse172132_NET1707_A02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|d:\\docm\\software engineering\\semester 7\\prn221\\.docs\\fuminihotelmanagement-2\\duongtddse172132_net1707_a02\\razorpage\\pages\\cart\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|solutionrelative:razorpage\\pages\\cart\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|d:\\docm\\software engineering\\semester 7\\prn221\\.docs\\fuminihotelmanagement-2\\duongtddse172132_net1707_a02\\razorpage\\pages\\shared\\_toast.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|solutionrelative:razorpage\\pages\\shared\\_toast.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|d:\\docm\\software engineering\\semester 7\\prn221\\.docs\\fuminihotelmanagement-2\\duongtddse172132_net1707_a02\\razorpage\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|solutionrelative:razorpage\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC079AF8-D8C6-4CCB-9510-53A4EB68D816}|Service\\Service.csproj|d:\\docm\\software engineering\\semester 7\\prn221\\.docs\\fuminihotelmanagement-2\\duongtddse172132_net1707_a02\\service\\services\\quartzs\\updateroomstatusjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC079AF8-D8C6-4CCB-9510-53A4EB68D816}|Service\\Service.csproj|solutionrelative:service\\services\\quartzs\\updateroomstatusjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC079AF8-D8C6-4CCB-9510-53A4EB68D816}|Service\\Service.csproj|d:\\docm\\software engineering\\semester 7\\prn221\\.docs\\fuminihotelmanagement-2\\duongtddse172132_net1707_a02\\service\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC079AF8-D8C6-4CCB-9510-53A4EB68D816}|Service\\Service.csproj|solutionrelative:service\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|d:\\docm\\software engineering\\semester 7\\prn221\\.docs\\fuminihotelmanagement-2\\duongtddse172132_net1707_a02\\razorpage\\pages\\booking\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|solutionrelative:razorpage\\pages\\booking\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|d:\\docm\\software engineering\\semester 7\\prn221\\.docs\\fuminihotelmanagement-2\\duongtddse172132_net1707_a02\\razorpage\\pages\\rooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|solutionrelative:razorpage\\pages\\rooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\Docm\\Software Engineering\\semester 7\\PRN221\\.docs\\FUMiniHotelManagement-2\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Cart\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "RazorPage\\Pages\\Cart\\Index.cshtml.cs",
+              "ToolTip": "D:\\Docm\\Software Engineering\\semester 7\\PRN221\\.docs\\FUMiniHotelManagement-2\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Cart\\Index.cshtml.cs",
+              "RelativeToolTip": "RazorPage\\Pages\\Cart\\Index.cshtml.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAAHIAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T19:20:38.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Toast.cshtml",
+              "DocumentMoniker": "D:\\Docm\\Software Engineering\\semester 7\\PRN221\\.docs\\FUMiniHotelManagement-2\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Shared\\_Toast.cshtml",
+              "RelativeDocumentMoniker": "RazorPage\\Pages\\Shared\\_Toast.cshtml",
+              "ToolTip": "D:\\Docm\\Software Engineering\\semester 7\\PRN221\\.docs\\FUMiniHotelManagement-2\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Shared\\_Toast.cshtml",
+              "RelativeToolTip": "RazorPage\\Pages\\Shared\\_Toast.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T19:21:59.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateRoomStatusJob.cs",
+              "DocumentMoniker": "D:\\Docm\\Software Engineering\\semester 7\\PRN221\\.docs\\FUMiniHotelManagement-2\\Duongtddse172132_NET1707_A02\\Service\\Services\\Quartzs\\UpdateRoomStatusJob.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\Quartzs\\UpdateRoomStatusJob.cs",
+              "ToolTip": "D:\\Docm\\Software Engineering\\semester 7\\PRN221\\.docs\\FUMiniHotelManagement-2\\Duongtddse172132_NET1707_A02\\Service\\Services\\Quartzs\\UpdateRoomStatusJob.cs",
+              "RelativeToolTip": "Service\\Services\\Quartzs\\UpdateRoomStatusJob.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T19:21:54.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "D:\\Docm\\Software Engineering\\semester 7\\PRN221\\.docs\\FUMiniHotelManagement-2\\Duongtddse172132_NET1707_A02\\Service\\Services\\BookingService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\BookingService.cs",
+              "ToolTip": "D:\\Docm\\Software Engineering\\semester 7\\PRN221\\.docs\\FUMiniHotelManagement-2\\Duongtddse172132_NET1707_A02\\Service\\Services\\BookingService.cs",
+              "RelativeToolTip": "Service\\Services\\BookingService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T19:21:20.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Docm\\Software Engineering\\semester 7\\PRN221\\.docs\\FUMiniHotelManagement-2\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Booking\\Details.cshtml",
+              "RelativeDocumentMoniker": "RazorPage\\Pages\\Booking\\Details.cshtml",
+              "ToolTip": "D:\\Docm\\Software Engineering\\semester 7\\PRN221\\.docs\\FUMiniHotelManagement-2\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Booking\\Details.cshtml",
+              "RelativeToolTip": "RazorPage\\Pages\\Booking\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T19:17:32.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Docm\\Software Engineering\\semester 7\\PRN221\\.docs\\FUMiniHotelManagement-2\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "RazorPage\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Docm\\Software Engineering\\semester 7\\PRN221\\.docs\\FUMiniHotelManagement-2\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "RazorPage\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAGMAAAAAAAAAAADwv6kAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T18:47:30.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Docm\\Software Engineering\\semester 7\\PRN221\\.docs\\FUMiniHotelManagement-2\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Rooms\\Index.cshtml",
+              "RelativeDocumentMoniker": "RazorPage\\Pages\\Rooms\\Index.cshtml",
+              "ToolTip": "D:\\Docm\\Software Engineering\\semester 7\\PRN221\\.docs\\FUMiniHotelManagement-2\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Rooms\\Index.cshtml",
+              "RelativeToolTip": "RazorPage\\Pages\\Rooms\\Index.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAD0AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T18:45:12.778Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

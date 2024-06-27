@@ -1,0 +1,45 @@
+D:\Code\DotNet\FUMiniHotelManagement-2\Service\bin\Debug\net8.0\Service.deps.json
+D:\Code\DotNet\FUMiniHotelManagement-2\Service\bin\Debug\net8.0\Service.dll
+D:\Code\DotNet\FUMiniHotelManagement-2\Service\bin\Debug\net8.0\Service.pdb
+D:\Code\DotNet\FUMiniHotelManagement-2\Service\bin\Debug\net8.0\Repository.dll
+D:\Code\DotNet\FUMiniHotelManagement-2\Service\bin\Debug\net8.0\Repository.pdb
+D:\Code\DotNet\FUMiniHotelManagement-2\Service\obj\Debug\net8.0\Service.csproj.AssemblyReference.cache
+D:\Code\DotNet\FUMiniHotelManagement-2\Service\obj\Debug\net8.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\DotNet\FUMiniHotelManagement-2\Service\obj\Debug\net8.0\Service.AssemblyInfoInputs.cache
+D:\Code\DotNet\FUMiniHotelManagement-2\Service\obj\Debug\net8.0\Service.AssemblyInfo.cs
+D:\Code\DotNet\FUMiniHotelManagement-2\Service\obj\Debug\net8.0\Service.csproj.CoreCompileInputs.cache
+D:\Code\DotNet\FUMiniHotelManagement-2\Service\obj\Debug\net8.0\Service.csproj.Up2Date
+D:\Code\DotNet\FUMiniHotelManagement-2\Service\obj\Debug\net8.0\Service.dll
+D:\Code\DotNet\FUMiniHotelManagement-2\Service\obj\Debug\net8.0\refint\Service.dll
+D:\Code\DotNet\FUMiniHotelManagement-2\Service\obj\Debug\net8.0\Service.pdb
+D:\Code\DotNet\FUMiniHotelManagement-2\Service\obj\Debug\net8.0\ref\Service.dll
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\FUMiniHotelManagement-2\Service\bin\Debug\net8.0\Service.deps.json
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\FUMiniHotelManagement-2\Service\bin\Debug\net8.0\Service.dll
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\FUMiniHotelManagement-2\Service\bin\Debug\net8.0\Service.pdb
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\FUMiniHotelManagement-2\Service\bin\Debug\net8.0\Repository.dll
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\FUMiniHotelManagement-2\Service\bin\Debug\net8.0\Repository.pdb
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\FUMiniHotelManagement-2\Service\obj\Debug\net8.0\Service.csproj.AssemblyReference.cache
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\FUMiniHotelManagement-2\Service\obj\Debug\net8.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\FUMiniHotelManagement-2\Service\obj\Debug\net8.0\Service.AssemblyInfoInputs.cache
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\FUMiniHotelManagement-2\Service\obj\Debug\net8.0\Service.AssemblyInfo.cs
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\FUMiniHotelManagement-2\Service\obj\Debug\net8.0\Service.csproj.CoreCompileInputs.cache
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\FUMiniHotelManagement-2\Service\obj\Debug\net8.0\Service.csproj.Up2Date
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\FUMiniHotelManagement-2\Service\obj\Debug\net8.0\Service.dll
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\FUMiniHotelManagement-2\Service\obj\Debug\net8.0\refint\Service.dll
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\FUMiniHotelManagement-2\Service\obj\Debug\net8.0\Service.pdb
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\FUMiniHotelManagement-2\Service\obj\Debug\net8.0\ref\Service.dll
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duongtddse172132_NET1707_A02\Service\bin\Debug\net8.0\Service.deps.json
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duongtddse172132_NET1707_A02\Service\bin\Debug\net8.0\Service.dll
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duongtddse172132_NET1707_A02\Service\bin\Debug\net8.0\Service.pdb
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duongtddse172132_NET1707_A02\Service\bin\Debug\net8.0\Repository.dll
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duongtddse172132_NET1707_A02\Service\bin\Debug\net8.0\Repository.pdb
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duongtddse172132_NET1707_A02\Service\obj\Debug\net8.0\Service.csproj.AssemblyReference.cache
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duongtddse172132_NET1707_A02\Service\obj\Debug\net8.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duongtddse172132_NET1707_A02\Service\obj\Debug\net8.0\Service.AssemblyInfoInputs.cache
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duongtddse172132_NET1707_A02\Service\obj\Debug\net8.0\Service.AssemblyInfo.cs
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duongtddse172132_NET1707_A02\Service\obj\Debug\net8.0\Service.csproj.CoreCompileInputs.cache
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duongtddse172132_NET1707_A02\Service\obj\Debug\net8.0\Service.csproj.Up2Date
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duongtddse172132_NET1707_A02\Service\obj\Debug\net8.0\Service.dll
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duongtddse172132_NET1707_A02\Service\obj\Debug\net8.0\refint\Service.dll
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duongtddse172132_NET1707_A02\Service\obj\Debug\net8.0\Service.pdb
+D:\Docm\Software Engineering\semester 7\PRN221\.docs\FUMiniHotelManagement-2\Duongtddse172132_NET1707_A02\Service\obj\Debug\net8.0\ref\Service.dll

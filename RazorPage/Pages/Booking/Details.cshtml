@@ -1,0 +1,75 @@
+﻿@page
+@model RazorPage.Pages.Booking.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1 class="text-center my-4">Booking Reservation Details</h1>
+
+<div class="card mb-4">
+    <div class="card-header bg-primary text-white">
+        <h4>Booking Reservation</h4>
+    </div>
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.BookingReservation.BookingDate)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.BookingReservation.BookingDate)
+            </dd>
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.BookingReservation.TotalPrice)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.BookingReservation.TotalPrice)
+            </dd>
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.BookingReservation.BookingStatus)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.BookingReservation.BookingStatus)
+            </dd>
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.BookingReservation.Customer)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.BookingReservation.Customer.CustomerFullName)
+            </dd>
+        </dl>
+    </div>
+</div>
+
+<div class="card mb-4">
+    <div class="card-header bg-secondary text-white">
+        <h4>Booking Details</h4>
+    </div>
+    <div class="card-body">
+        <table class="table table-striped table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.BookingReservation.BookingDetails.First().RoomId)</th>
+                    <th>@Html.DisplayNameFor(model => model.BookingReservation.BookingDetails.First().StartDate)</th>
+                    <th>@Html.DisplayNameFor(model => model.BookingReservation.BookingDetails.First().EndDate)</th>
+                    <th>@Html.DisplayNameFor(model => model.BookingReservation.BookingDetails.First().ActualPrice)</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var detail in Model.BookingReservation.BookingDetails)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => detail.RoomId)</td>
+                        <td>@Html.DisplayFor(modelItem => detail.StartDate)</td>
+                        <td>@Html.DisplayFor(modelItem => detail.EndDate)</td>
+                        <td>@Html.DisplayFor(modelItem => detail.ActualPrice)</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="text-center">
+    <a asp-page="./History" class="btn btn-secondary">Back to List</a>
+</div>
