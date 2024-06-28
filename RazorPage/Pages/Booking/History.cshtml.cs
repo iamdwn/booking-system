@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Repository.Models;
 using Service;
 using Service.Dtos;
-using Service.Services.IServices;
+using Service.Services.Interfaces;
 
 namespace RazorPage.Pages.Booking
 {

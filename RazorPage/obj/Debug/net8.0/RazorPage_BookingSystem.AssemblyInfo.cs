@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RazorPage_BookingSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9dcbe717e1a473d58e3caae83792eb9da83ee2e6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f29498074cad6c5eb2b85d1235a0a8eb6b42611")]
 [assembly: System.Reflection.AssemblyProductAttribute("RazorPage_BookingSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RazorPage_BookingSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

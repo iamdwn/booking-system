@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.SignalR;
 using Repository.Models;
-using Repository.Repositories.IRepositories;
+using Repository.Repositories.Interfaces;
 using Service.Dtos;
-using Service.Services.IServices;
+using Service.Services.Interfaces;
 
-namespace Service.Services
+namespace Service.Services.Impl
 {
     public class BookingService : IBookingService
     {

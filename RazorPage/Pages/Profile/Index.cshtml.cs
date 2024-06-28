@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Repository.Models;
 using Service;
 using Service.Dtos;
-using Service.Services.IServices;
+using Service.Services.Interfaces;
 
 namespace RazorPage.Pages.Profile
 {

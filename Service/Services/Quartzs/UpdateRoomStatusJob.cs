@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using Quartz;
-using Repository.Repositories.IRepositories;
-using Service.Services.IServices;
+using Repository.Repositories.Interfaces;
+using Service.Services.Interfaces;
 
 namespace Service.Services.Quartzs
 {

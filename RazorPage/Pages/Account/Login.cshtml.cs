@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Service;
 using Service.Dtos;
-using Service.Services.IServices;
+using Service.Services.Interfaces;
 using System.ComponentModel.DataAnnotations;
 
 namespace RazorPage.Pages.Account

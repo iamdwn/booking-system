@@ -1,7 +1,7 @@
 ﻿using Repository.Models;
 using System.Linq.Expressions;
 
-namespace Repository.Repositories.IRepositories
+namespace Repository.Repositories.Interfaces
 {
     public interface IRoomInformationRepository
     {

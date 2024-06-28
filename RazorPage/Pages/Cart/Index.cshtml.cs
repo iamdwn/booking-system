@@ -6,7 +6,7 @@ using Service;
 using Microsoft.AspNetCore.Authorization;
 using Service.Dtos;
 using System.ComponentModel.DataAnnotations;
-using Service.Services.IServices;
+using Service.Services.Interfaces;
 
 namespace RazorPage.Pages.Cart
 {

@@ -1,6 +1,6 @@
 ﻿using Repository.Models;
 
-namespace Repository.Repositories.IRepositories
+namespace Repository.Repositories.Interfaces
 {
     public interface IBookingDetailRepository
     {

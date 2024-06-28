@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Repository.Dtos;
-using Service.Services.IServices;
+using Service.Services.Interfaces;
 
 namespace RazorPage.Pages.Account
 {

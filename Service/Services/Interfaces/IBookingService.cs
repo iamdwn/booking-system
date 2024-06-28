@@ -1,12 +1,12 @@
 ﻿using Repository.Models;
 using Service.Dtos;
 
-namespace Repository.Repositories.IRepositories
+namespace Service.Services.Interfaces
 {
-    public interface IBookingReservationRepository
+    public interface IBookingService
     {
-        Task<BookingReservation?> GetBookingById(int id);
         Task<List<BookingHistoryDto>> GetBookingByCusId(int id);
+        Task<BookingReservation?> GetBookingById(int id);
         Task<bool> CreateBooking(BookingReservation booking);
     }
 }

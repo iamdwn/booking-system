@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Repository.Models;
-using Repository.Repositories.IRepositories;
+using Repository.Repositories.Interfaces;
 using System.Linq.Expressions;
 
-namespace Repository.Repositories
+namespace Repository.Repositories.Impl
 {
     public class RoomInformationRepository : IRoomInformationRepository
     {

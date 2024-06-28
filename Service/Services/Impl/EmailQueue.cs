@@ -1,4 +1,4 @@
-﻿namespace Service.Services
+﻿namespace Service.Services.Impl
 {
     public class EmailQueue : IEmailQueue
     {

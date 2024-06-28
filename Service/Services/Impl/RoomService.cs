@@ -1,9 +1,9 @@
 ﻿using Repository.Models;
-using Repository.Repositories.IRepositories;
-using Service.Services.IServices;
+using Repository.Repositories.Interfaces;
+using Service.Services.Interfaces;
 using System.Linq.Expressions;
 
-namespace Service.Services
+namespace Service.Services.Impl
 {
     public class RoomService : IRoomService
     {

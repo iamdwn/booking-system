@@ -1,7 +1,7 @@
 ﻿using Repository.Models;
 using System.Linq.Expressions;
 
-namespace Service.Services.IServices
+namespace Service.Services.Interfaces
 {
     public interface IRoomService
     {

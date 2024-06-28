@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Repository.Models;
-using Repository.Repositories.IRepositories;
+using Repository.Repositories.Interfaces;
 using Service.Dtos;
 
-namespace Repository.Repositories
+namespace Repository.Repositories.Impl
 {
     public class BookingReservationRepository : IBookingReservationRepository
     {

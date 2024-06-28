@@ -1,11 +1,11 @@
 using Microsoft.EntityFrameworkCore;
 using Quartz;
 using Repository.Models;
-using Repository.Repositories;
-using Repository.Repositories.IRepositories;
+using Repository.Repositories.Impl;
+using Repository.Repositories.Interfaces;
 using Service;
-using Service.Services;
-using Service.Services.IServices;
+using Service.Services.Impl;
+using Service.Services.Interfaces;
 using Service.Services.Quartzs;
 
 var builder = WebApplication.CreateBuilder(args);

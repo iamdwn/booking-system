@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Repository.Models;
-using Repository.Repositories.IRepositories;
+using Repository.Repositories.Interfaces;
 
-namespace Repository.Repositories
+namespace Repository.Repositories.Impl
 {
     public class BookingDetailRepository : IBookingDetailRepository
     {
