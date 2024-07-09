@@ -5,6 +5,96 @@
     ViewData["Title"] = "Available Rooms";
 }
 
+<style>
+    .btn-primary {
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,174,1) 35%, rgba(0,212,255,1) 100%);
+        border-color: rgba(2,0,36,1) 0%, rgba(9,121,174,1) 35%, rgba(0,212,255,1) 100%;
+        transition: background 0.3s, border-color 0.3s, transform 0.3s;
+    }
+
+        .btn-primary:hover {
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,174,1) 35%, rgba(0,212,255,1) 100%);
+            border-color: rgba(0,212,255,1) 0%, rgba(9,121,174,1) 35%, rgba(2,0,36,1) 100%;
+            transform: scale(1.05);
+        }
+
+    .btn-outline-primary {
+        transition: background 0.3s, border-color 0.3s, color 0.3s, transform 0.3s;
+    }
+
+        .btn-outline-primary:hover {
+            background: rgba(9,121,174,1);
+            border-color: rgba(2,0,36,1);
+            color: #fff;
+            transform: scale(1.05);
+        }
+
+    .btn-secondary {
+        transition: background 0.3s, border-color 0.3s, transform 0.3s;
+    }
+
+        .btn-secondary:hover {
+            background: #6c757d;
+            border-color: #5a6268;
+            transform: scale(1.05);
+        }
+
+    .room-card {
+        background-color: #f8f9fa;
+        border: 1px solid #dee2e6;
+        border-radius: 0.75rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+        padding: 20px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+
+        .room-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .room-card .gradient-icon {
+            font-size: 2rem;
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,174,1) 35%, rgba(0,212,255,1) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 1rem;
+        }
+
+        .room-card h5 {
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+
+        .room-card h6 {
+            font-size: 1rem;
+            font-weight: normal;
+        }
+
+        .room-card p {
+            color: #6c757d;
+            margin-bottom: 10px;
+        }
+
+        .room-card .btn {
+            margin-top: auto;
+        }
+
+        .room-card .badge {
+            font-size: 0.875rem;
+        }
+
+    .container {
+        max-width: 1200px;
+    }
+</style>
+
 <div class="container-fluid mt-5">
     <h1 class="text-center mb-4">Available Rooms</h1>
 
@@ -100,77 +190,6 @@
         }
     </div>
 </div>
-
-<style>
-
-    .btn-primary {
-        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,174,1) 35%, rgba(0,212,255,1) 100%);
-        border-color: rgba(2,0,36,1) 0%, rgba(9,121,174,1) 35%, rgba(0,212,255,1) 100%;
-    }
-
-        .btn-primary:hover {
-            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,174,1) 35%, rgba(0,212,255,1) 100%);
-            border-color: rgba(2,0,36,1) 0%, rgba(9,121,174,1) 35%, rgba(0,212,255,1) 100%;
-        }
-
-    .room-card {
-        background-color: #f8f9fa;
-        border: 1px solid #dee2e6;
-        border-radius: 0.75rem;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s, box-shadow 0.3s;
-        padding: 20px;
-        text-align: left;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-            height: 100%;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 15px;
-    margin-bottom: 20px;
-    }
-
-        .room-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-        }
-
-        .room-card .gradient-icon {
-            font-size: 2rem;
-            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,174,1) 35%, rgba(0,212,255,1) 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            margin-bottom: 1rem;
-        }
-
-        .room-card h5 {
-            font-size: 1.25rem;
-            font-weight: bold;
-        }
-
-        .room-card h6 {
-            font-size: 1rem;
-            font-weight: normal;
-        }
-
-        .room-card p {
-            color: #6c757d;
-            margin-bottom: 10px;
-        }
-
-        .room-card .btn {
-            margin-top: auto;
-        }
-
-        .room-card .badge {
-            font-size: 0.875rem;
-        }
-
-    .container {
-        max-width: 1200px;
-    }
-</style>
 
 <script>
     document.addEventListener('DOMContentLoaded', function () {

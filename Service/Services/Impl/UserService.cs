@@ -37,6 +37,8 @@ namespace Service.Services.Impl
 
             if (customer == null) return null;
 
+            if (customer.CustomerStatus == 0) return null;
+
             var isMatch = customer.Password?.Equals(password) ?? false;
 
             if (isMatch == false) return null;

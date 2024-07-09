@@ -16,33 +16,54 @@ namespace Repository.Repositories.Impl
 
         public async Task<RoomInformation?> GetRoomById(int roomId)
         {
-            return await _context.RoomInformations.FirstOrDefaultAsync(r => r.RoomId == roomId && r.RoomStatus != 1);
+            try
+            {
+                return await _context.RoomInformations.FirstOrDefaultAsync(r => r.RoomId == roomId && r.RoomStatus != 1);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Invalid booking details");
+            }
         }
 
         public async Task<List<RoomInformation>> GetRooms(Expression<Func<RoomInformation, bool>> predicate)
         {
-            return await _context.RoomInformations
-                .Where(predicate)
-                .Include(r => r.RoomType)
-                .ToListAsync();
+            try
+            {
+                return await _context.RoomInformations
+                    .Where(predicate)
+                    .Include(r => r.RoomType)
+                    .ToListAsync();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Invalid booking details");
+            }
         }
 
         public async Task<bool> UpdateRoom(RoomInformation room)
         {
-            var existingRoom = await _context.RoomInformations.FindAsync(room.RoomId);
-            if (existingRoom != null)
+            try
             {
-                existingRoom.RoomNumber = room.RoomNumber;
-                existingRoom.RoomDetailDescription = room.RoomDetailDescription;
-                existingRoom.RoomMaxCapacity = room.RoomMaxCapacity;
-                existingRoom.RoomStatus = room.RoomStatus.Equals("Active") ? (byte)1 : (byte)0;
-                existingRoom.RoomPricePerDay = room.RoomPricePerDay;
-                existingRoom.RoomType = room.RoomType;
+                var existingRoom = await _context.RoomInformations.FindAsync(room.RoomId);
+                if (existingRoom != null)
+                {
+                    existingRoom.RoomNumber = room.RoomNumber;
+                    existingRoom.RoomDetailDescription = room.RoomDetailDescription;
+                    existingRoom.RoomMaxCapacity = room.RoomMaxCapacity;
+                    existingRoom.RoomStatus = room.RoomStatus;
+                    existingRoom.RoomPricePerDay = room.RoomPricePerDay;
+                    existingRoom.RoomType = room.RoomType;
 
-                _context.RoomInformations.Update(existingRoom);
+                    _context.RoomInformations.Update(existingRoom);
+                }
+
+                return await _context.SaveChangesAsync() > 0;
             }
-
-            return await _context.SaveChangesAsync() > 0;
+            catch (Exception ex)
+            {
+                throw new Exception("Invalid booking details");
+            }
         }
     }
 }

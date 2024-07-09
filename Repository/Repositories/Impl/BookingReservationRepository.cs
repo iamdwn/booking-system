@@ -16,32 +16,53 @@ namespace Repository.Repositories.Impl
 
         public async Task<bool> CreateBooking(BookingReservation booking)
         {
-            _context.BookingReservations.Add(booking);
-            return await _context.SaveChangesAsync() > 0;
+            try
+            {
+                _context.BookingReservations.Add(booking);
+                return await _context.SaveChangesAsync() > 0;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Invalid booking details");
+            }
         }
 
         public async Task<List<BookingHistoryDto>> GetBookingByCusId(int id)
         {
-            var result = await _context.BookingReservations
-                .Where(b => b.CustomerId == id)
-                .Select(b => new BookingHistoryDto
-                {
-                    CustomerId = b.CustomerId,
-                    ActualPrice = b.TotalPrice,
-                    BookingDate = b.BookingDate,
-                    BookingStatus = b.BookingStatus,
-                    BookingReservationId = b.BookingReservationId,
-                })
-                .ToListAsync();
-            return result;
+            try
+            {
+                var result = await _context.BookingReservations
+                    .Where(b => b.CustomerId == id)
+                    .Select(b => new BookingHistoryDto
+                    {
+                        CustomerId = b.CustomerId,
+                        ActualPrice = b.TotalPrice,
+                        BookingDate = b.BookingDate,
+                        BookingStatus = b.BookingStatus,
+                        BookingReservationId = b.BookingReservationId,
+                    })
+                    .ToListAsync();
+                return result;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Invalid booking details");
+            }
         }
 
         public async Task<BookingReservation?> GetBookingById(int id)
         {
-            return await _context.BookingReservations
-                .Include(b => b.BookingDetails)
-                .Include(b => b.Customer)
-                .FirstOrDefaultAsync(b => b.BookingReservationId == id);
+            try
+            {
+                return await _context.BookingReservations
+                    .Include(b => b.BookingDetails)
+                    .Include(b => b.Customer)
+                    .FirstOrDefaultAsync(b => b.BookingReservationId == id);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Invalid booking details");
+            }
         }
     }
 }

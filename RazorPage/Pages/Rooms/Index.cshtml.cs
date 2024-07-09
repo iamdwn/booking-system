@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using Repository.Models;
 using Service;
+using Service.Dtos;
 
 namespace RazorPage.Pages.Rooms
 {
@@ -71,6 +72,9 @@ namespace RazorPage.Pages.Rooms
             }
 
             // Add the room to the cart (store in session or database)
+            var user = HttpContext.Session.GetObjectFromJson<UserDto>("User");
+            if (user == null || !user.isAuthenticated) return RedirectToPage();
+
             var cart = HttpContext.Session.GetObjectFromJson<List<int>>("Cart") ?? new List<int>();
             cart.Add(roomId);
             HttpContext.Session.SetObjectAsJson("Cart", cart);

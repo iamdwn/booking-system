@@ -5,14 +5,11 @@
     ViewData["Title"] = "Booking History";
 }
 
-<h1>Booking History</h1>
+<h1 class="text-center mb-4 text-light">Booking History</h1>
 
-<!-- Gradient background with a white overlay for better readability -->
-<div class="container-fluid" style="background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,174,1) 35%, rgba(0,212,255,1) 100%); padding: 20px; border-radius: 15px;">
-
-    <!-- Semi-transparent background for the table -->
-    <div class="table-responsive" style="background: rgba(255, 255, 255, 0.8); padding: 15px; border-radius: 10px;">
-        <table class="table table-striped table-bordered">
+<div class="container-fluid py-5" style="background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); border-radius: 15px;">
+    <div class="table-responsive" style="background: rgba(255, 255, 255, 0.9); padding: 15px; border-radius: 10px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);">
+        <table class="table table-hover table-bordered" style="border-radius: 10px; overflow: hidden;">
             <thead class="thead-dark">
                 <tr>
                     <th scope="col">Booking Date</th>
@@ -30,23 +27,27 @@
                         <td>
                             @{
                                 string statusText;
+                                string statusClass;
                                 switch (item.BookingStatus)
                                 {
                                     case 0:
                                         statusText = "Pending";
+                                        statusClass = "badge pending-label";
                                         break;
                                     case 1:
                                         statusText = "Confirmed";
+                                        statusClass = "badge bg-success";
                                         break;
                                     default:
                                         statusText = "Unknown";
+                                        statusClass = "badge bg-secondary";
                                         break;
                                 }
                             }
-                            @statusText
+                            <span class="@statusClass">@statusText</span>
                         </td>
                         <td>
-                            <a asp-page="./Details" asp-route-id="@item.BookingReservationId" class="btn btn-sm btn-primary">Detail</a>
+                            <a asp-page="./Details" asp-route-id="@item.BookingReservationId" class="btn btn-sm btn-primary btn-detail">Detail</a>
                         </td>
                     </tr>
                 }
@@ -54,3 +55,99 @@
         </table>
     </div>
 </div>
+
+<style>
+    body {
+        background-color: #f8f9fa;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        font-weight: 300;
+    }
+
+    .container-fluid {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .table-responsive {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .table {
+        border-collapse: separate;
+        border-spacing: 0;
+    }
+
+    .table-hover tbody tr:hover {
+        background-color: #e9ecef;
+        cursor: pointer;
+    }
+
+    .thead-dark th {
+        background-color: #343a40;
+        color: white;
+        border: none;
+    }
+
+    .table-bordered th, .table-bordered td {
+        border: none;
+    }
+
+    .btn {
+        transition: background-color 0.3s, border-color 0.3s, transform 0.3s;
+    }
+
+    .btn-detail {
+        background-color: #007bff;
+        border-color: #007bff;
+        color: #ffffff;
+        box-shadow: 0 0.25rem 0.5rem rgba(0, 123, 255, 0.5);
+        transition: all 0.3s ease;
+    }
+
+        .btn-detail:hover {
+            background-color: #0056b3;
+            border-color: #004085;
+            transform: scale(1.05);
+        }
+
+    .badge {
+        font-size: 0.9em;
+        padding: 0.5em 0.75em;
+        border-radius: 0.25rem;
+        transition: all 0.3s ease;
+    }
+
+    .bg-warning {
+        background-color: #ffc107 !important;
+    }
+
+    .bg-success {
+        background-color: #28a745 !important;
+    }
+
+    .bg-secondary {
+        background-color: #6c757d !important;
+    }
+
+    .pending-label {
+        background-color: #ffc107;
+        color: #212529;
+        border: 1px solid #212529;
+        border-radius: 0.25rem;
+        font-weight: bold;
+        padding: 0.5em 1em;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        transition: all 0.3s ease;
+    }
+
+        .pending-label:hover {
+            background-color: #e0a800;
+            color: #ffffff;
+            border-color: #ffffff;
+        }
+</style>

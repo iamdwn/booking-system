@@ -15,13 +15,27 @@ namespace Repository.Repositories.Impl
 
         public async Task<bool> CreateBookingDetail(BookingDetail bookingDetail)
         {
-            _context.BookingDetails.Add(bookingDetail);
-            return await _context.SaveChangesAsync() > 0;
+            try
+            {
+                _context.BookingDetails.Add(bookingDetail);
+                return await _context.SaveChangesAsync() > 0;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Invalid booking details");
+            }
         }
 
         public async Task<List<BookingDetail>> GetBookingDetails()
         {
-            return await _context.BookingDetails.Include(bd => bd.Room).ToListAsync();
+            try
+            {
+                return await _context.BookingDetails.Include(bd => bd.Room).ToListAsync();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Invalid booking details");
+            }
         }
     }
 }

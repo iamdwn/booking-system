@@ -57,7 +57,8 @@ namespace RazorPage.Pages.Account
                 else
                 {
                     TempData["toast-error"] = "Login failed!";
-                    return Page();
+                    //return Page();
+                    return RedirectToPage("/Account/Login");
                 }
             }
 

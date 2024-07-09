@@ -37,104 +37,163 @@ namespace RazorPage.Pages.Cart
         [Required(ErrorMessage = "Check-out date is required.")]
         [DataType(DataType.Date)]
         [Display(Name = "Check-out Date")]
+        [DateGreaterThanOrEqual("CheckInDate", ErrorMessage = "Check-out date must be greater than or equal to the check-in date.")]
         public DateTime CheckOutDate { get; set; }
 
         public async Task OnGetAsync()
         {
-            var user = HttpContext.Session.GetObjectFromJson<UserDto>("User");
-
-            if (user != null)
+            try
             {
-                CustomerName = user.userName;
-            }
+                var user = HttpContext.Session.GetObjectFromJson<UserDto>("User");
 
-            await LoadCartRoomsAsync();
+                if (user != null)
+                {
+                    CustomerName = user.userName;
+                }
+
+                await LoadCartRoomsAsync();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Invalid booking details");
+            }
         }
 
         public async Task<IActionResult> OnPostRemoveFromCartAsync(int roomId)
         {
-            var cart = HttpContext.Session.GetObjectFromJson<List<int>>("Cart") ?? new List<int>();
-            cart.Remove(roomId);
-            HttpContext.Session.SetObjectAsJson("Cart", cart);
+            try
+            {
+                var cart = HttpContext.Session.GetObjectFromJson<List<int>>("Cart") ?? new List<int>();
+                cart.Remove(roomId);
+                HttpContext.Session.SetObjectAsJson("Cart", cart);
+                TempData["toast-success"] = "Room removed from cart successfully.";
 
-            return RedirectToPage();
+                return RedirectToPage();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Invalid booking details");
+            }
         }
 
         public async Task<IActionResult> OnPostCreateBookingAsync()
         {
-            if (!ModelState.IsValid)
+            try
             {
-                return Page();
-            }
-
-            var user = HttpContext.Session.GetObjectFromJson<UserDto>("User");
-
-            if (user == null)
-            {
-                return RedirectToPage("/Account/Login");
-            }
-
-            await LoadCartRoomsAsync();
-
-            var booking = new BookingReservation
-            {
-                BookingDate = DateOnly.FromDateTime(DateTime.Now),
-                BookingDetails = new List<BookingDetail>(),
-                BookingStatus = 0,
-                CustomerId = user.userId,
-                TotalPrice = 0,
-            };
-
-            var listBookingDetails = new List<BookingDetail>();
-
-            foreach (var room in Rooms)
-            {
-                var bookingDetail = new BookingDetail
+                if (!ModelState.IsValid)
                 {
-                    StartDate = DateOnly.FromDateTime(CheckInDate),
-                    EndDate = DateOnly.FromDateTime(CheckOutDate),
-                    ActualPrice = room.RoomPricePerDay * (CheckOutDate - CheckInDate).Days,
-                    RoomId = room.RoomId,
-                    BookingReservationId = 1,
+                    return Page();
+                }
+
+                var user = HttpContext.Session.GetObjectFromJson<UserDto>("User");
+
+                if (user == null)
+                {
+                    return RedirectToPage("/Account/Login");
+                }
+
+                await LoadCartRoomsAsync();
+
+                var booking = new BookingReservation
+                {
+                    BookingDate = DateOnly.FromDateTime(DateTime.Now),
+                    BookingDetails = new List<BookingDetail>(),
+                    BookingStatus = 0,
+                    CustomerId = user.userId,
+                    TotalPrice = 0,
                 };
 
-                booking.BookingDetails.Add(bookingDetail);
+                var listBookingDetails = new List<BookingDetail>();
+
+                checkDay(CheckInDate, CheckOutDate);
+
+                foreach (var room in Rooms)
+                {
+                    var bookingDetail = new BookingDetail
+                    {
+                        StartDate = DateOnly.FromDateTime(CheckInDate),
+                        EndDate = DateOnly.FromDateTime(CheckOutDate),
+                        ActualPrice = room.RoomPricePerDay * (CheckOutDate - CheckInDate).Days,
+                        RoomId = room.RoomId,
+                        BookingReservationId = 1,
+                    };
+
+                    booking.BookingDetails.Add(bookingDetail);
+                }
+
+                booking.TotalPrice = CalculateTotalPrice(Rooms, CheckInDate, CheckOutDate);
+
+
+                var result = await _bookingService.CreateBooking(booking);
+
+                //if (!result)
+                //{
+                //    //TempData["toast-error"] = "Booking failed try again!";
+                //    //TempData["toast-error"] = "Booking error!";
+                //    TempData["toast-success"] = "Booking success!";
+                //    return Page();
+                //}
+
+                //TempData["toast-success"] = "Booking success!";
+                TempData["toast-success"] = "Booking created successfully.";
             }
-
-            booking.TotalPrice = CalculateTotalPrice(Rooms, CheckInDate, CheckOutDate);
-
-            var result = await _bookingService.CreateBooking(booking);
-
-            if (!result)
+            catch (Exception ex)
             {
-                //TempData["toast-error"] = "Booking failed try again!";
-                TempData["toast-success"] = "Booking success!";
-                return Page();
+                TempData["toast-error"] = $"Booking failed: {ex.Message}";
+                return RedirectToPage();
             }
 
-            TempData["toast-success"] = "Booking success!";
-            return Page();
+            return RedirectToPage();
+            //return Page();
             //return RedirectToPage("/Bookings/Confirmation"/*, new { bookingId = booking.Id }*/);
         }
 
         private async Task LoadCartRoomsAsync()
         {
-            var cart = HttpContext.Session.GetObjectFromJson<List<int>>("Cart") ?? new List<int>();
+            try
+            {
+                var cart = HttpContext.Session.GetObjectFromJson<List<int>>("Cart") ?? new List<int>();
 
-            Rooms = await _roomService.GetRooms(r => cart.Contains(r.RoomId));
+                Rooms = await _roomService.GetRooms(r => cart.Contains(r.RoomId));
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Invalid booking details");
+            }
         }
 
         private decimal? CalculateTotalPrice(List<RoomInformation> rooms, DateTime checkInDate, DateTime checkOutDate)
         {
-            var totalDays = (checkOutDate - checkInDate).Days;
-            decimal? totalPrice = 0;
-
-            foreach (var room in rooms)
+            try
             {
-                totalPrice += room.RoomPricePerDay * totalDays;
-            }
+                var totalDays = (checkOutDate - checkInDate).Days;
+                decimal? totalPrice = 0;
 
-            return totalPrice;
+                foreach (var room in rooms)
+                {
+                    totalPrice += room.RoomPricePerDay * totalDays;
+                }
+
+                return totalPrice;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Invalid booking details");
+            }
+        }
+
+        private bool checkDay(DateTime checkInDate, DateTime checkOutDate)
+        {
+            try
+            {
+                if ((checkOutDate - checkInDate).Days >= 0)
+                    return false;
+                return true;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Invalid booking details");
+            }
         }
     }
 }

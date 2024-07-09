@@ -21,21 +21,28 @@ namespace Service.Services.Impl
 
         public async Task<bool> CreateBooking(BookingReservation booking)
         {
-            bool result = await _bookingRepository.CreateBooking(booking);
-            foreach (var bookingDetail in booking.BookingDetails)
+            try
             {
-                var room = await _roomInformationRepository.GetRoomById(bookingDetail.RoomId);
-                if (room == null) return false;
-                room.RoomStatus = 0;
-                result = await _roomInformationRepository.UpdateRoom(room);
+                bool result = await _bookingRepository.CreateBooking(booking);
+                foreach (var bookingDetail in booking.BookingDetails)
+                {
+                    var room = await _roomInformationRepository.GetRoomById(bookingDetail.RoomId);
+                    if (room == null) return false;
+                    room.RoomStatus = 0;
+                    result = await _roomInformationRepository.UpdateRoom(room);
+                }
+
+                await _hubContext.SendMessage("Update Room status");
+
+                return result;
             }
-
-            await _hubContext.SendMessage("Update Room status");
-
-            return result;
+            catch (Exception ex)
+            {
+                throw new Exception("Invalid booking details");
+            }
         }
 
-        public async Task<List<BookingHistoryDto>> GetBookingByCusId(int id) => await _bookingRepository.GetBookingByCusId(id);
+        public async Task<List<BookingHistoryDto>> GetBookingByCusId(int id) =>  await _bookingRepository.GetBookingByCusId(id);
 
         public async Task<BookingReservation?> GetBookingById(int id) => await _bookingRepository.GetBookingById(id);
     }

@@ -26,7 +26,7 @@ namespace Service.Services.Quartzs
 
                 foreach (var bookingDetail in bookingDetails)
                 {
-                    if (bookingDetail.EndDate >= DateOnly.FromDateTime(DateTime.Now))
+                    if (bookingDetail.EndDate <= DateOnly.FromDateTime(DateTime.Now))
                     {
                         bookingDetail.Room.RoomStatus = 1;
                         var result = await _roomInformationRepository.UpdateRoom(bookingDetail.Room);

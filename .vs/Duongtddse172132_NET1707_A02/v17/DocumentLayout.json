@@ -3,12 +3,56 @@
   "WorkspaceRootPath": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|d:\\docm\\dev\\.learning-process\\c#\\prn221\\duongtddse172132_net1707_a02\\razorpage\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|solutionrelative:razorpage\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EC079AF8-D8C6-4CCB-9510-53A4EB68D816}|Service\\Service.csproj|d:\\docm\\dev\\.learning-process\\c#\\prn221\\duongtddse172132_net1707_a02\\service\\services\\quartzs\\updateroomstatusjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC079AF8-D8C6-4CCB-9510-53A4EB68D816}|Service\\Service.csproj|solutionrelative:service\\services\\quartzs\\updateroomstatusjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|d:\\docm\\dev\\.learning-process\\c#\\prn221\\duongtddse172132_net1707_a02\\razorpage\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|solutionrelative:razorpage\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0AFE6DCA-DE56-44FA-A510-0DB8BD57015E}|Repository\\Repository.csproj|d:\\docm\\dev\\.learning-process\\c#\\prn221\\duongtddse172132_net1707_a02\\repository\\repositories\\impl\\bookingdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AFE6DCA-DE56-44FA-A510-0DB8BD57015E}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\impl\\bookingdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|d:\\docm\\dev\\.learning-process\\c#\\prn221\\duongtddse172132_net1707_a02\\razorpage\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|solutionrelative:razorpage\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC079AF8-D8C6-4CCB-9510-53A4EB68D816}|Service\\Service.csproj|d:\\docm\\dev\\.learning-process\\c#\\prn221\\duongtddse172132_net1707_a02\\service\\services\\impl\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC079AF8-D8C6-4CCB-9510-53A4EB68D816}|Service\\Service.csproj|solutionrelative:service\\services\\impl\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AFE6DCA-DE56-44FA-A510-0DB8BD57015E}|Repository\\Repository.csproj|d:\\docm\\dev\\.learning-process\\c#\\prn221\\duongtddse172132_net1707_a02\\repository\\repositories\\impl\\roominformationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AFE6DCA-DE56-44FA-A510-0DB8BD57015E}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\impl\\roominformationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AFE6DCA-DE56-44FA-A510-0DB8BD57015E}|Repository\\Repository.csproj|d:\\docm\\dev\\.learning-process\\c#\\prn221\\duongtddse172132_net1707_a02\\repository\\repositories\\impl\\bookingreservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AFE6DCA-DE56-44FA-A510-0DB8BD57015E}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\impl\\bookingreservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AFE6DCA-DE56-44FA-A510-0DB8BD57015E}|Repository\\Repository.csproj|d:\\docm\\dev\\.learning-process\\c#\\prn221\\duongtddse172132_net1707_a02\\repository\\repositories\\impl\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AFE6DCA-DE56-44FA-A510-0DB8BD57015E}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\impl\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC079AF8-D8C6-4CCB-9510-53A4EB68D816}|Service\\Service.csproj|d:\\docm\\dev\\.learning-process\\c#\\prn221\\duongtddse172132_net1707_a02\\service\\services\\impl\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC079AF8-D8C6-4CCB-9510-53A4EB68D816}|Service\\Service.csproj|solutionrelative:service\\services\\impl\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC079AF8-D8C6-4CCB-9510-53A4EB68D816}|Service\\Service.csproj|d:\\docm\\dev\\.learning-process\\c#\\prn221\\duongtddse172132_net1707_a02\\service\\bookinghub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC079AF8-D8C6-4CCB-9510-53A4EB68D816}|Service\\Service.csproj|solutionrelative:service\\bookinghub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC079AF8-D8C6-4CCB-9510-53A4EB68D816}|Service\\Service.csproj|d:\\docm\\dev\\.learning-process\\c#\\prn221\\duongtddse172132_net1707_a02\\service\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC079AF8-D8C6-4CCB-9510-53A4EB68D816}|Service\\Service.csproj|solutionrelative:service\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC079AF8-D8C6-4CCB-9510-53A4EB68D816}|Service\\Service.csproj|d:\\docm\\dev\\.learning-process\\c#\\prn221\\duongtddse172132_net1707_a02\\service\\services\\quartzs\\sendemailjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC079AF8-D8C6-4CCB-9510-53A4EB68D816}|Service\\Service.csproj|solutionrelative:service\\services\\quartzs\\sendemailjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|d:\\docm\\dev\\.learning-process\\c#\\prn221\\duongtddse172132_net1707_a02\\razorpage\\pages\\cart\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|solutionrelative:razorpage\\pages\\cart\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|d:\\docm\\dev\\.learning-process\\c#\\prn221\\duongtddse172132_net1707_a02\\razorpage\\pages\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|solutionrelative:razorpage\\pages\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,28 +78,171 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "RazorPage\\Pages\\Index.cshtml",
-              "ToolTip": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Index.cshtml",
-              "RelativeToolTip": "RazorPage\\Pages\\Index.cshtml",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\RazorPage\\appsettings.json",
+              "RelativeDocumentMoniker": "RazorPage\\appsettings.json",
+              "ToolTip": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\RazorPage\\appsettings.json",
+              "RelativeToolTip": "RazorPage\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-08T19:55:41.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SendEmailJob.cs",
+              "DocumentMoniker": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\Service\\Services\\Quartzs\\SendEmailJob.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\Quartzs\\SendEmailJob.cs",
+              "ToolTip": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\Service\\Services\\Quartzs\\SendEmailJob.cs",
+              "RelativeToolTip": "Service\\Services\\Quartzs\\SendEmailJob.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-28T01:39:11.865Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T19:46:56.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\Service\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "Service\\SessionExtensions.cs",
+              "ToolTip": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\Service\\SessionExtensions.cs",
+              "RelativeToolTip": "Service\\SessionExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T19:45:12.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookingHub.cs",
+              "DocumentMoniker": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\Service\\BookingHub.cs",
+              "RelativeDocumentMoniker": "Service\\BookingHub.cs",
+              "ToolTip": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\Service\\BookingHub.cs",
+              "RelativeToolTip": "Service\\BookingHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T19:45:10.105Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "RazorPage\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "RazorPage\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABIBAAAAAAAAAAAowCwBAAARAAAA",
+              "Title": "UpdateRoomStatusJob.cs",
+              "DocumentMoniker": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\Service\\Services\\Quartzs\\UpdateRoomStatusJob.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\Quartzs\\UpdateRoomStatusJob.cs",
+              "ToolTip": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\Service\\Services\\Quartzs\\UpdateRoomStatusJob.cs",
+              "RelativeToolTip": "Service\\Services\\Quartzs\\UpdateRoomStatusJob.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAQwB8AAABlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T19:42:33.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RoomService.cs",
+              "DocumentMoniker": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\Service\\Services\\Impl\\RoomService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\Impl\\RoomService.cs",
+              "ToolTip": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\Service\\Services\\Impl\\RoomService.cs",
+              "RelativeToolTip": "Service\\Services\\Impl\\RoomService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T19:35:19.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\Repository\\Repositories\\Impl\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repositories\\Impl\\CustomerRepository.cs",
+              "ToolTip": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\Repository\\Repositories\\Impl\\CustomerRepository.cs",
+              "RelativeToolTip": "Repository\\Repositories\\Impl\\CustomerRepository.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T19:35:11.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookingReservationRepository.cs",
+              "DocumentMoniker": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\Repository\\Repositories\\Impl\\BookingReservationRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repositories\\Impl\\BookingReservationRepository.cs",
+              "ToolTip": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\Repository\\Repositories\\Impl\\BookingReservationRepository.cs",
+              "RelativeToolTip": "Repository\\Repositories\\Impl\\BookingReservationRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAEAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T19:33:59.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookingDetailRepository.cs",
+              "DocumentMoniker": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\Repository\\Repositories\\Impl\\BookingDetailRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repositories\\Impl\\BookingDetailRepository.cs",
+              "ToolTip": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\Repository\\Repositories\\Impl\\BookingDetailRepository.cs",
+              "RelativeToolTip": "Repository\\Repositories\\Impl\\BookingDetailRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAQwCUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T19:33:57.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RoomInformationRepository.cs",
+              "DocumentMoniker": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\Repository\\Repositories\\Impl\\RoomInformationRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repositories\\Impl\\RoomInformationRepository.cs",
+              "ToolTip": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\Repository\\Repositories\\Impl\\RoomInformationRepository.cs",
+              "RelativeToolTip": "Repository\\Repositories\\Impl\\RoomInformationRepository.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T19:31:27.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\Service\\Services\\Impl\\BookingService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\Impl\\BookingService.cs",
+              "ToolTip": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\Service\\Services\\Impl\\BookingService.cs",
+              "RelativeToolTip": "Service\\Services\\Impl\\BookingService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACwAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T19:29:42.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Cart\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "RazorPage\\Pages\\Cart\\Index.cshtml.cs",
+              "ToolTip": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Cart\\Index.cshtml.cs",
+              "RelativeToolTip": "RazorPage\\Pages\\Cart\\Index.cshtml.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAkwEIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T19:25:08.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "RazorPage\\Pages\\Cart\\Index.cshtml",
+              "ToolTip": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Cart\\Index.cshtml",
+              "RelativeToolTip": "RazorPage\\Pages\\Cart\\Index.cshtml",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAcwKAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-28T01:37:57.378Z",
+              "WhenOpened": "2024-07-08T19:23:01.861Z",
               "EditorCaption": ""
             }
           ]
