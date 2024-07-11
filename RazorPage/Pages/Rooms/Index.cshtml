@@ -1,4 +1,4 @@
-﻿@page
+﻿@* @page
 @model RazorPage.Pages.Rooms.IndexModel
 
 @{
@@ -161,7 +161,6 @@
                 </div>
             </div>
 
-            <!-- Modal -->
             <div class="modal fade" id="roomDetailsModal-@item.RoomId" tabindex="-1" aria-labelledby="roomDetailsModalLabel-@item.RoomId" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
@@ -205,3 +204,156 @@
         });
     });
 </script>
+*@
+@page
+@model RazorPage.Pages.Rooms.IndexModel
+
+@{
+    ViewData["Title"] = "Available Rooms";
+}
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Available Rooms</h1>
+
+    <form method="get" class="mb-4">
+        <div class="row mb-3">
+            <div class="col-md-3">
+                <input type="text" name="searchDescription" class="form-control" placeholder="Search by description" value="@Model.SearchDescription" />
+            </div>
+            <div class="col-md-3">
+                <input type="number" name="searchPrice" class="form-control" placeholder="Max price per day" value="@Model.SearchPrice" />
+            </div>
+            <div class="col-md-2">
+                <input type="number" name="searchCapacity" class="form-control" placeholder="Max capacity" value="@Model.SearchCapacity" />
+            </div>
+            <div class="col-md-2">
+                <select name="searchTypeId" class="form-control">
+                    <option value="">Select type</option>
+                    @foreach (var type in Model.Types)
+                    {
+                        <option value="@type.RoomTypeId">@type.RoomTypeName</option>
+                    }
+                </select>
+            </div>
+            <div class="col-md-2 mt-2 mt-md-0">
+                <button type="submit" class="btn btn-primary w-100">Search</button>
+            </div>
+        </div>
+    </form>
+
+    <div class="table-responsive">
+        <table class="table table-hover">
+            @{
+                var user = HttpContext.Session.GetObjectFromJson<UserDto>("User");
+            }
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">Room Number</th>
+                    <th scope="col">Room Type</th>
+                    <th scope="col">Price per Day</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Max Capacity</th>
+                    @if (user != null && user.isAuthenticated)
+                    {
+                        @if (!user.isAdmin)
+                        {
+                            <th scope="col">Actions</th>
+                        }
+                    }
+                </tr>
+            </thead>
+
+            <tbody id="tableBody">
+                @foreach (var item in Model.Rooms)
+                {
+                    <tr>
+                        <td>@item.RoomNumber</td>
+                        <td>@item.RoomType.RoomTypeName</td>
+                        <td>@item.RoomPricePerDay</td>
+                        <td>@item.RoomStatus</td>
+                        <td>@item.RoomDetailDescription</td>
+                        <td>@item.RoomMaxCapacity</td>
+                        @if (user != null && user.isAuthenticated)
+                        {
+                            @if (!user.isAdmin)
+                            {
+                                <td>
+                                    @*<form method="post" asp-page-handler="AddToCart" asp-route-roomId="@item.RoomId" data-bs-toggle="modal" data-bs-target="#roomModal-@item.RoomId">
+                                    <button type="submit" class="btn btn-primary">Add to Cart</button>
+                                    </form> *@
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#roomModal-@item.RoomId">
+                                        Add to Cart
+                                    </button>
+
+                                    <div class="modal fade" id="roomModal-@item.RoomId" tabindex="-1" aria-labelledby="roomModalLabel-@item.RoomId" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="roomModalLabel-@item.RoomId">Add Room @item.RoomNumber to Cart</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    Are you sure you want to add Room @item.RoomNumber to the cart?
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                                    <form method="post" asp-page-handler="AddToCart" asp-route-roomId="@item.RoomId">
+                                                        <button type="submit" class="btn btn-primary">Add to Cart</button>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            }
+                        }
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<style>
+    .container {
+        max-width: 1200px;
+    }
+
+    .table-responsive {
+        margin-top: 20px;
+    }
+
+    .btn-primary {
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,174,1) 35%, rgba(0,212,255,1) 100%);
+        border-color: rgba(2,0,36,1) 0%, rgba(9,121,174,1) 35%, rgba(0,212,255,1) 100%;
+        transition: background 0.3s, border-color 0.3s, transform 0.3s;
+    }
+
+        .btn-primary:hover {
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,174,1) 35%, rgba(0,212,255,1) 100%);
+            border-color: rgba(0,212,255,1) 0%, rgba(9,121,174,1) 35%, rgba(2,0,36,1) 100%;
+            transform: scale(1.05);
+        }
+
+    .btn-outline-primary {
+        transition: background 0.3s, border-color 0.3s, color 0.3s, transform 0.3s;
+    }
+
+        .btn-outline-primary:hover {
+            background: rgba(9,121,174,1);
+            border-color: rgba(2,0,36,1);
+            color: #fff;
+            transform: scale(1.05);
+        }
+
+    .btn-secondary {
+        transition: background 0.3s, border-color 0.3s, transform 0.3s;
+    }
+
+        .btn-secondary:hover {
+            background: #6c757d;
+            border-color: #5a6268;
+            transform: scale(1.05);
+        }
+</style>

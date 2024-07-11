@@ -18,7 +18,11 @@ builder.Services.AddDbContext<FuminiHotelManagementContext>(options =>
 });
 
 //Register SignalR
-builder.Services.AddSignalR();
+builder.Services.AddSignalR().AddJsonProtocol(options =>
+{
+    options.PayloadSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
+    options.PayloadSerializerOptions.MaxDepth = 64;
+});
 builder.Services.AddTransient<BookingHub>();
 
 // Enable session

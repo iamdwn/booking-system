@@ -18,7 +18,7 @@ namespace Repository.Repositories.Impl
         {
             try
             {
-                return await _context.RoomInformations.FirstOrDefaultAsync(r => r.RoomId == roomId && r.RoomStatus != 1);
+                return await _context.RoomInformations.FirstOrDefaultAsync(r => r.RoomId == roomId && r.RoomStatus == 1);
             }
             catch (Exception ex)
             {

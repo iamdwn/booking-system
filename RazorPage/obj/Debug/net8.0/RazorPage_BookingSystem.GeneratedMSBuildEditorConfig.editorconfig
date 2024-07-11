@@ -34,8 +34,52 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Docm/Dev/.learning-process/C\#/PRN221/Duongtddse172132_NET1707_A02/RazorPage/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Docm/Dev/.learning-process/C\#/PRN221/Duongtddse172132_NET1707_A02/RazorPage/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Docm/Dev/.learning-process/C\#/PRN221/Duongtddse172132_NET1707_A02/RazorPage/Pages/Admin/Bookings/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQm9va2luZ3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Docm/Dev/.learning-process/C\#/PRN221/Duongtddse172132_NET1707_A02/RazorPage/Pages/Admin/Bookings/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQm9va2luZ3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Docm/Dev/.learning-process/C\#/PRN221/Duongtddse172132_NET1707_A02/RazorPage/Pages/Admin/Bookings/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQm9va2luZ3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Docm/Dev/.learning-process/C\#/PRN221/Duongtddse172132_NET1707_A02/RazorPage/Pages/Admin/Bookings/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQm9va2luZ3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Docm/Dev/.learning-process/C\#/PRN221/Duongtddse172132_NET1707_A02/RazorPage/Pages/Admin/Bookings/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQm9va2luZ3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Docm/Dev/.learning-process/C\#/PRN221/Duongtddse172132_NET1707_A02/RazorPage/Pages/Admin/Rooms/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUm9vbXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Docm/Dev/.learning-process/C\#/PRN221/Duongtddse172132_NET1707_A02/RazorPage/Pages/Admin/Rooms/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUm9vbXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Docm/Dev/.learning-process/C\#/PRN221/Duongtddse172132_NET1707_A02/RazorPage/Pages/Admin/Rooms/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUm9vbXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Docm/Dev/.learning-process/C\#/PRN221/Duongtddse172132_NET1707_A02/RazorPage/Pages/Admin/Rooms/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUm9vbXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Docm/Dev/.learning-process/C\#/PRN221/Duongtddse172132_NET1707_A02/RazorPage/Pages/Admin/Rooms/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUm9vbXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Docm/Dev/.learning-process/C\#/PRN221/Duongtddse172132_NET1707_A02/RazorPage/Pages/Booking/Details.cshtml]

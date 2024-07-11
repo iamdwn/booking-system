@@ -21,8 +21,6 @@ namespace Service.Services.Impl
 
         public async Task<bool> CreateBooking(BookingReservation booking)
         {
-            try
-            {
                 bool result = await _bookingRepository.CreateBooking(booking);
                 foreach (var bookingDetail in booking.BookingDetails)
                 {
@@ -32,14 +30,13 @@ namespace Service.Services.Impl
                     result = await _roomInformationRepository.UpdateRoom(room);
                 }
 
-                await _hubContext.SendMessage("Update Room status");
+                if (result)
+                {
+                    var data = await _roomInformationRepository.GetRooms(r => r.RoomStatus != 0);
+                    await _hubContext.SendMessageWithData(data);
+                }
 
                 return result;
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("Invalid booking details");
-            }
         }
 
         public async Task<List<BookingHistoryDto>> GetBookingByCusId(int id) =>  await _bookingRepository.GetBookingByCusId(id);

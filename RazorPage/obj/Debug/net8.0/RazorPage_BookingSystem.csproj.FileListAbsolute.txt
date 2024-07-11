@@ -523,3 +523,4 @@ D:\Docm\Dev\.learning-process\C#\PRN221\Duongtddse172132_NET1707_A02\RazorPage\o
 D:\Docm\Dev\.learning-process\C#\PRN221\Duongtddse172132_NET1707_A02\RazorPage\obj\Debug\net8.0\RazorPage_BookingSystem.pdb
 D:\Docm\Dev\.learning-process\C#\PRN221\Duongtddse172132_NET1707_A02\RazorPage\obj\Debug\net8.0\RazorPage_BookingSystem.genruntimeconfig.cache
 D:\Docm\Dev\.learning-process\C#\PRN221\Duongtddse172132_NET1707_A02\RazorPage\obj\Debug\net8.0\ref\RazorPage_BookingSystem.dll
+D:\Docm\Dev\.learning-process\C#\PRN221\Duongtddse172132_NET1707_A02\RazorPage\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll

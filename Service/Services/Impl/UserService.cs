@@ -1,4 +1,5 @@
-﻿using Repository.Dtos;
+﻿using Microsoft.Extensions.Configuration;
+using Repository.Dtos;
 using Repository.Models;
 using Repository.Repositories.Interfaces;
 using Service.Services.Interfaces;
@@ -10,11 +11,13 @@ namespace Service.Services.Impl
     {
         private readonly ICustomerRepository _customerRepository;
         private readonly IEmailQueue _emailQueue;
+        private readonly IConfiguration _configuration;
 
-        public UserService(ICustomerRepository customerRepository, IEmailQueue emailQueue)
+        public UserService(ICustomerRepository customerRepository, IEmailQueue emailQueue, IConfiguration configuration)
         {
             _customerRepository = customerRepository;
             _emailQueue = emailQueue;
+            _configuration = configuration;
         }
 
         public async Task<Customer?> GetCustomer(Expression<Func<Customer, bool>> predicate)
@@ -33,6 +36,21 @@ namespace Service.Services.Impl
 
         public async Task<Customer?> Login(string email, string password)
         {
+            var adminCredentials = _configuration.GetSection("DefaultAdminAccount").Get<AdminCredentials>();
+            if (adminCredentials != null && email == adminCredentials.Email && password == adminCredentials.Password)
+            {
+                // Create an admin customer object
+                var adminCustomer = new Customer
+                {
+                    EmailAddress = adminCredentials.Email,
+                    Password = adminCredentials.Password,
+                    CustomerFullName = "Admin",
+                    CustomerStatus = 1,
+                    // Add other necessary admin properties
+                };
+                return adminCustomer;
+            }
+
             var customer = await _customerRepository.FindAsync(c => c.EmailAddress.Equals(email));
 
             if (customer == null) return null;
@@ -76,6 +94,12 @@ namespace Service.Services.Impl
         {
             var result = await _customerRepository.UpdateAsync(customer);
             return result;
+        }
+
+        public class AdminCredentials
+        {
+            public string Email { get; set; }
+            public string Password { get; set; }
         }
     }
 }
