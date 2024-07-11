@@ -27,7 +27,7 @@ namespace RazorPage.Pages.Admin.Bookings
                 return NotFound();
             }
 
-            var bookingreservation = await _context.BookingReservations.FirstOrDefaultAsync(m => m.BookingReservationId == id);
+            var bookingreservation = await _context.BookingReservations.Include(c => c.Customer).FirstOrDefaultAsync(m => m.BookingReservationId == id);
             if (bookingreservation == null)
             {
                 return NotFound();

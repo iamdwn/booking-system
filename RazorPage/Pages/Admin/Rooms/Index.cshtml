@@ -5,62 +5,103 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Management Rooms</h1>
+<h1 class="text-center mt-4">Management Rooms</h1>
 
-<p>
-    <a asp-page="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.RoomInformation[0].RoomNumber)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.RoomInformation[0].RoomDetailDescription)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.RoomInformation[0].RoomMaxCapacity)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.RoomInformation[0].RoomStatus)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.RoomInformation[0].RoomPricePerDay)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.RoomInformation[0].RoomType)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model.RoomInformation) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.RoomNumber)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.RoomDetailDescription)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.RoomMaxCapacity)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.RoomStatus)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.RoomPricePerDay)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.RoomType.RoomTypeName)
-            </td>
-            <td>
-                <a asp-page="./Edit" asp-route-id="@item.RoomId">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.RoomId">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.RoomId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div class="container mt-5">
+    <p>
+        <a asp-page="Create" class="btn btn-primary mb-3">Create New</a>
+    </p>
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.RoomInformation[0].RoomNumber)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.RoomInformation[0].RoomDetailDescription)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.RoomInformation[0].RoomMaxCapacity)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.RoomInformation[0].RoomStatus)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.RoomInformation[0].RoomPricePerDay)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.RoomInformation[0].RoomType)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.RoomInformation)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.RoomNumber)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.RoomDetailDescription)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.RoomMaxCapacity)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.RoomStatus)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.RoomPricePerDay)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.RoomType.RoomTypeName)
+                        </td>
+                        <td>
+                            <a asp-page="./Edit" asp-route-id="@item.RoomId" class="btn btn-outline-primary btn-sm me-2">Edit</a>
+                            <a asp-page="./Details" asp-route-id="@item.RoomId" class="btn btn-outline-info btn-sm me-2">Details</a>
+                            <a asp-page="./Delete" asp-route-id="@item.RoomId" class="btn btn-outline-danger btn-sm">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<style>
+    .container {
+        max-width: 1800px;
+    }
+
+    .btn {
+        transition: background-color 0.3s, border-color 0.3s, transform 0.3s;
+    }
+
+        .btn:hover {
+            transform: scale(1.05);
+        }
+
+    .btn-outline-primary:hover {
+        background-color: #007bff;
+        border-color: #007bff;
+        color: #fff;
+    }
+
+    .btn-outline-info:hover {
+        background-color: #17a2b8;
+        border-color: #17a2b8;
+        color: #fff;
+    }
+
+    .btn-outline-danger:hover {
+        background-color: #dc3545;
+        border-color: #dc3545;
+        color: #fff;
+    }
+
+    .table-responsive {
+        margin-top: 20px;
+    }
+</style>

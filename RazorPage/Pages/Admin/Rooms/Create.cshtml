@@ -9,50 +9,94 @@
 
 <h4>RoomInformation</h4>
 <hr />
-<div class="row">
-    <div class="col-md-4">
-        <form method="post">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="RoomInformation.RoomNumber" class="control-label"></label>
-                <input asp-for="RoomInformation.RoomNumber" class="form-control" />
-                <span asp-validation-for="RoomInformation.RoomNumber" class="text-danger"></span>
+<h1 class="text-center mt-4">Create Booking Reservation</h1>
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h4 class="card-title">Booking Reservation</h4>
+                    <hr />
+                    <form method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                        <div class="form-group mb-3">
+                            <label asp-for="RoomInformation.RoomNumber" class="control-label"></label>
+                            <input asp-for="RoomInformation.RoomNumber" class="form-control" />
+                            <span asp-validation-for="RoomInformation.RoomNumber" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label asp-for="RoomInformation.RoomDetailDescription" class="control-label"></label>
+                            <input asp-for="RoomInformation.RoomDetailDescription" class="form-control" />
+                            <span asp-validation-for="RoomInformation.RoomDetailDescription" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label asp-for="RoomInformation.RoomMaxCapacity" class="control-label"></label>
+                            <input asp-for="RoomInformation.RoomMaxCapacity" class="form-control" />
+                            <span asp-validation-for="RoomInformation.RoomMaxCapacity" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label asp-for="RoomInformation.RoomTypeId" class="control-label"></label>
+                            <select asp-for="RoomInformation.RoomTypeId" class="form-control" asp-items="ViewBag.RoomTypeId"></select>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label asp-for="RoomInformation.RoomStatus" class="control-label"></label>
+                            <select asp-for="RoomInformation.RoomStatus" class="form-control" asp-items="Model.RoomStatusList"></select>
+                            <span asp-validation-for="RoomInformation.RoomStatus" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label asp-for="RoomInformation.RoomPricePerDay" class="control-label"></label>
+                            <input asp-for="RoomInformation.RoomPricePerDay" class="form-control" />
+                            <span asp-validation-for="RoomInformation.RoomPricePerDay" class="text-danger"></span>
+                        </div>
+                        <div class="d-grid">
+                            <input type="submit" value="Create" class="btn btn-outline-primary">
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class="form-group">
-                <label asp-for="RoomInformation.RoomDetailDescription" class="control-label"></label>
-                <input asp-for="RoomInformation.RoomDetailDescription" class="form-control" />
-                <span asp-validation-for="RoomInformation.RoomDetailDescription" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="RoomInformation.RoomMaxCapacity" class="control-label"></label>
-                <input asp-for="RoomInformation.RoomMaxCapacity" class="form-control" />
-                <span asp-validation-for="RoomInformation.RoomMaxCapacity" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="RoomInformation.RoomTypeId" class="control-label"></label>
-                <select asp-for="RoomInformation.RoomTypeId" class ="form-control" asp-items="ViewBag.RoomTypeId"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="RoomInformation.RoomStatus" class="control-label"></label>
-                <input asp-for="RoomInformation.RoomStatus" class="form-control" />
-                <span asp-validation-for="RoomInformation.RoomStatus" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="RoomInformation.RoomPricePerDay" class="control-label"></label>
-                <input asp-for="RoomInformation.RoomPricePerDay" class="form-control" />
-                <span asp-validation-for="RoomInformation.RoomPricePerDay" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+        </div>
     </div>
 </div>
 
-<div>
-    <a asp-page="Index">Back to List</a>
+<div class="text-center mt-4">
+    <a asp-page="Index" class="btn btn-outline-secondary">Back to List</a>
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }
+
+<style>
+    .container {
+        max-width: 800px;
+    }
+
+    .card {
+        border-radius: 10px;
+    }
+
+    .btn-outline-primary {
+        transition: background 0.3s, border-color 0.3s, color 0.3s, transform 0.3s;
+    }
+
+        .btn-outline-primary:hover {
+            background-color: #007bff;
+            border-color: #007bff;
+            color: #fff;
+            transform: scale(1.05);
+        }
+
+    .btn-outline-secondary {
+        transition: background 0.3s, border-color 0.3s, color 0.3s, transform 0.3s;
+    }
+
+        .btn-outline-secondary:hover {
+            background-color: #6c757d;
+            border-color: #6c757d;
+            color: #fff;
+            transform: scale(1.05);
+        }
+</style>

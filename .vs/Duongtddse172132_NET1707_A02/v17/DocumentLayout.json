@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|d:\\docm\\dev\\.learning-process\\c#\\prn221\\duongtddse172132_net1707_a02\\razorpage\\pages\\rooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|solutionrelative:razorpage\\pages\\rooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|d:\\docm\\dev\\.learning-process\\c#\\prn221\\duongtddse172132_net1707_a02\\razorpage\\pages\\admin\\bookings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|solutionrelative:razorpage\\pages\\admin\\bookings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|d:\\docm\\dev\\.learning-process\\c#\\prn221\\duongtddse172132_net1707_a02\\razorpage\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|solutionrelative:razorpage\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|d:\\docm\\dev\\.learning-process\\c#\\prn221\\duongtddse172132_net1707_a02\\razorpage\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|solutionrelative:razorpage\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|d:\\docm\\dev\\.learning-process\\c#\\prn221\\duongtddse172132_net1707_a02\\razorpage\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|solutionrelative:razorpage\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|d:\\docm\\dev\\.learning-process\\c#\\prn221\\duongtddse172132_net1707_a02\\razorpage\\pages\\admin\\rooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|solutionrelative:razorpage\\pages\\admin\\rooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,54 +34,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Logout.cshtml.cs",
-              "DocumentMoniker": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Account\\Logout.cshtml.cs",
-              "RelativeDocumentMoniker": "RazorPage\\Pages\\Account\\Logout.cshtml.cs",
-              "ToolTip": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Account\\Logout.cshtml.cs",
-              "RelativeToolTip": "RazorPage\\Pages\\Account\\Logout.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T21:39:00.249Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Logout.cshtml",
-              "DocumentMoniker": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Account\\Logout.cshtml",
-              "RelativeDocumentMoniker": "RazorPage\\Pages\\Account\\Logout.cshtml",
-              "ToolTip": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Account\\Logout.cshtml",
-              "RelativeToolTip": "RazorPage\\Pages\\Account\\Logout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Admin\\Rooms\\Index.cshtml",
+              "RelativeDocumentMoniker": "RazorPage\\Pages\\Admin\\Rooms\\Index.cshtml",
+              "ToolTip": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Admin\\Rooms\\Index.cshtml",
+              "RelativeToolTip": "RazorPage\\Pages\\Admin\\Rooms\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T21:38:57.611Z",
+              "WhenOpened": "2024-07-11T22:39:49.054Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Rooms\\Index.cshtml",
-              "RelativeDocumentMoniker": "RazorPage\\Pages\\Rooms\\Index.cshtml",
-              "ToolTip": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Rooms\\Index.cshtml",
-              "RelativeToolTip": "RazorPage\\Pages\\Rooms\\Index.cshtml",
-              "ViewState": "AQIAAA0BAAAAAAAAAAD4vxsBAAAkAAAA",
+              "DocumentMoniker": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Admin\\Bookings\\Index.cshtml",
+              "RelativeDocumentMoniker": "RazorPage\\Pages\\Admin\\Bookings\\Index.cshtml",
+              "ToolTip": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Admin\\Bookings\\Index.cshtml",
+              "RelativeToolTip": "RazorPage\\Pages\\Admin\\Bookings\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T20:42:55.123Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "RazorPage\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "RazorPage\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAHcBAAAAAAAAAAAAAHYBAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T20:42:36.222Z",
+              "WhenOpened": "2024-07-11T22:35:16.696Z",
               "EditorCaption": ""
             }
           ]

@@ -27,7 +27,7 @@ namespace RazorPage.Pages.Admin.Rooms
                 return NotFound();
             }
 
-            var roominformation = await _context.RoomInformations.FirstOrDefaultAsync(m => m.RoomId == id);
+            var roominformation = await _context.RoomInformations.Include(r => r.RoomType).FirstOrDefaultAsync(m => m.RoomId == id);
             if (roominformation == null)
             {
                 return NotFound();

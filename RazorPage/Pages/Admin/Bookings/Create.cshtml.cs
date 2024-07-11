@@ -13,6 +13,8 @@ namespace RazorPage.Pages.Admin.Bookings
     {
         private readonly Repository.Models.FuminiHotelManagementContext _context;
 
+        public SelectList BookingStatusList { get; set; }
+
         public CreateModel(Repository.Models.FuminiHotelManagementContext context)
         {
             _context = context;
@@ -20,7 +22,8 @@ namespace RazorPage.Pages.Admin.Bookings
 
         public IActionResult OnGet()
         {
-        ViewData["CustomerId"] = new SelectList(_context.Customers, "CustomerId", "EmailAddress");
+            BookingStatusList = new SelectList(new List<int> { 0, 1 });
+            ViewData["CustomerId"] = new SelectList(_context.Customers, "CustomerId", "EmailAddress");
             return Page();
         }
 
@@ -32,7 +35,8 @@ namespace RazorPage.Pages.Admin.Bookings
         {
             if (!ModelState.IsValid)
             {
-                return Page();
+                BookingStatusList = new SelectList(new List<int> { 0, 1 });
+                //return Page();
             }
 
             _context.BookingReservations.Add(BookingReservation);
