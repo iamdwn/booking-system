@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|d:\\docm\\dev\\.learning-process\\c#\\prn221\\duongtddse172132_net1707_a02\\razorpage\\pages\\admin\\bookings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|solutionrelative:razorpage\\pages\\admin\\bookings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|d:\\docm\\dev\\.learning-process\\c#\\prn221\\duongtddse172132_net1707_a02\\razorpage\\pages\\admin\\rooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|solutionrelative:razorpage\\pages\\admin\\rooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|d:\\docm\\dev\\.learning-process\\c#\\prn221\\duongtddse172132_net1707_a02\\razorpage\\pages\\admin\\rooms\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA682E7D-882A-4714-8666-CA943D3A38F3}|RazorPage\\RazorPage_BookingSystem.csproj|solutionrelative:razorpage\\pages\\admin\\rooms\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,28 +30,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Admin\\Rooms\\Index.cshtml",
-              "RelativeDocumentMoniker": "RazorPage\\Pages\\Admin\\Rooms\\Index.cshtml",
-              "ToolTip": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Admin\\Rooms\\Index.cshtml",
-              "RelativeToolTip": "RazorPage\\Pages\\Admin\\Rooms\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T22:39:49.054Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Admin\\Bookings\\Index.cshtml",
-              "RelativeDocumentMoniker": "RazorPage\\Pages\\Admin\\Bookings\\Index.cshtml",
-              "ToolTip": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Admin\\Bookings\\Index.cshtml",
-              "RelativeToolTip": "RazorPage\\Pages\\Admin\\Bookings\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T22:35:16.696Z",
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Admin\\Rooms\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "RazorPage\\Pages\\Admin\\Rooms\\Details.cshtml.cs",
+              "ToolTip": "D:\\Docm\\Dev\\.learning-process\\C#\\PRN221\\Duongtddse172132_NET1707_A02\\RazorPage\\Pages\\Admin\\Rooms\\Details.cshtml.cs",
+              "RelativeToolTip": "RazorPage\\Pages\\Admin\\Rooms\\Details.cshtml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T22:55:29.288Z",
               "EditorCaption": ""
             }
           ]
