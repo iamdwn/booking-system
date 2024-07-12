@@ -14,10 +14,11 @@
         <div class="col-md-6">
             <div class="card shadow-sm">
                 <div class="card-body">
-                    <h4 class="card-title">Booking Reservation</h4>
+                    <h4 class="card-title">Room Information</h4>
                     <hr />
                     <form method="post">
                         <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                        <input type="hidden" asp-for="RoomInformation.RoomId" />
                         <div class="form-group mb-3">
                             <label asp-for="RoomInformation.RoomNumber" class="control-label"></label>
                             <input asp-for="RoomInformation.RoomNumber" class="form-control" />
@@ -49,7 +50,7 @@
                             <span asp-validation-for="RoomInformation.RoomPricePerDay" class="text-danger"></span>
                         </div>
                         <div class="d-grid">
-                            <input type="submit" value="Create" class="btn btn-outline-primary">
+                            <input type="submit" value="Save" class="btn btn-outline-primary">
                         </div>
                     </form>
                 </div>
