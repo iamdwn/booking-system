@@ -26,4 +26,4 @@ This is a Mini-Hotel Management System built using ASP.NET Core Razor Pages. The
 ## Getting Started
 **To run this project locally, follow step:**
    ```bash
-   git clone https://github.com/iamdwn/bacxiucafe.git
+   git clone https://github.com/iamdwn/RazorPage-BookingSystem.git
